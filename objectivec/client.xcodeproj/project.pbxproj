@@ -18,6 +18,8 @@
 		815FFD87240748BE00B05529 /* CubeViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 815FFD86240748BE00B05529 /* CubeViewController1.m */; };
 		81AE59892410EB0100330B8F /* LightingViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE59872410EB0100330B8F /* LightingViewController1.m */; };
 		81AE598A2410EB0100330B8F /* LightingViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE59882410EB0100330B8F /* LightingViewController2.m */; };
+		81C6E65D2415C26A00DB88F2 /* RectangleBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C6E65C2415C26A00DB88F2 /* RectangleBehaviour1.m */; };
+		81C6E6602415C2B200DB88F2 /* RectangleViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C6E65E2415C2B200DB88F2 /* RectangleViewController1.m */; };
 		F7172B7C1BF425A48FAC31BF /* Pods_iOSObjectiveCClinet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AE05A170E15ED2ECA07E0C /* Pods_iOSObjectiveCClinet.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +48,10 @@
 		81AE59862410EB0100330B8F /* LightingViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightingViewController2.h; sourceTree = "<group>"; };
 		81AE59872410EB0100330B8F /* LightingViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightingViewController1.m; sourceTree = "<group>"; };
 		81AE59882410EB0100330B8F /* LightingViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightingViewController2.m; sourceTree = "<group>"; };
+		81C6E65B2415C26A00DB88F2 /* RectangleBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleBehaviour1.h; sourceTree = "<group>"; };
+		81C6E65C2415C26A00DB88F2 /* RectangleBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleBehaviour1.m; sourceTree = "<group>"; };
+		81C6E65E2415C2B200DB88F2 /* RectangleViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleViewController1.m; sourceTree = "<group>"; };
+		81C6E65F2415C2B200DB88F2 /* RectangleViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleViewController1.h; sourceTree = "<group>"; };
 		A3AE05A170E15ED2ECA07E0C /* Pods_iOSObjectiveCClinet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSObjectiveCClinet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D4BDD5B8F7EC13BACC8DB9 /* Pods-iOSObjectiveCTestClinet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSObjectiveCTestClinet.debug.xcconfig"; path = "Target Support Files/Pods-iOSObjectiveCTestClinet/Pods-iOSObjectiveCTestClinet.debug.xcconfig"; sourceTree = "<group>"; };
 		BD239EE98EF062C7CE426B30 /* Pods-iOSObjectiveCClinet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSObjectiveCClinet.debug.xcconfig"; path = "Target Support Files/Pods-iOSObjectiveCClinet/Pods-iOSObjectiveCClinet.debug.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +127,8 @@
 		815FFBA52407468D00B05529 /* Behaviour */ = {
 			isa = PBXGroup;
 			children = (
+				81C6E65B2415C26A00DB88F2 /* RectangleBehaviour1.h */,
+				81C6E65C2415C26A00DB88F2 /* RectangleBehaviour1.m */,
 				815FFBAA2407468D00B05529 /* TriangleBehaviour1.h */,
 				815FFBA72407468D00B05529 /* TriangleBehaviour1.m */,
 				815FFBA92407468D00B05529 /* CubeBehaviour1.h */,
@@ -132,6 +140,8 @@
 		815FFBAC2407468D00B05529 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				81C6E65F2415C2B200DB88F2 /* RectangleViewController1.h */,
+				81C6E65E2415C2B200DB88F2 /* RectangleViewController1.m */,
 				81AE59852410EB0100330B8F /* LightingViewController1.h */,
 				81AE59872410EB0100330B8F /* LightingViewController1.m */,
 				81AE59862410EB0100330B8F /* LightingViewController2.h */,
@@ -271,7 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81C6E65D2415C26A00DB88F2 /* RectangleBehaviour1.m in Sources */,
 				815FFD022407468D00B05529 /* TriangleViewController1.m in Sources */,
+				81C6E6602415C2B200DB88F2 /* RectangleViewController1.m in Sources */,
 				81AE59892410EB0100330B8F /* LightingViewController1.m in Sources */,
 				815FFCE72407468D00B05529 /* TriangleBehaviour1.m in Sources */,
 				81AE598A2410EB0100330B8F /* LightingViewController2.m in Sources */,
