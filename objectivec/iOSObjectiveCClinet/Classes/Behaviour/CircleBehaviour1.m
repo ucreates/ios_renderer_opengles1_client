@@ -29,7 +29,7 @@
     return;
 }
 - (void)onDestroy {
-    [self->asset.vertex releaseBuffer];
+    [self->asset dispose];
     return;
 }
 @end

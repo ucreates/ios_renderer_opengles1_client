@@ -20,6 +20,8 @@
 		815FFD87240748BE00B05529 /* CubeViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 815FFD86240748BE00B05529 /* CubeViewController1.m */; };
 		81AE59892410EB0100330B8F /* LightingViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE59872410EB0100330B8F /* LightingViewController1.m */; };
 		81AE598A2410EB0100330B8F /* LightingViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE59882410EB0100330B8F /* LightingViewController2.m */; };
+		81AF3973241F04F700E2136B /* MaterialBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AF3971241F04F700E2136B /* MaterialBehaviour1.m */; };
+		81AF3976241F05E700E2136B /* LightingViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AF3974241F05E700E2136B /* LightingViewController3.m */; };
 		81C6E65D2415C26A00DB88F2 /* RectangleBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C6E65C2415C26A00DB88F2 /* RectangleBehaviour1.m */; };
 		81C6E6602415C2B200DB88F2 /* RectangleViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C6E65E2415C2B200DB88F2 /* RectangleViewController1.m */; };
 		F7172B7C1BF425A48FAC31BF /* Pods_iOSObjectiveCClinet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AE05A170E15ED2ECA07E0C /* Pods_iOSObjectiveCClinet.framework */; };
@@ -54,6 +56,10 @@
 		81AE59862410EB0100330B8F /* LightingViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightingViewController2.h; sourceTree = "<group>"; };
 		81AE59872410EB0100330B8F /* LightingViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightingViewController1.m; sourceTree = "<group>"; };
 		81AE59882410EB0100330B8F /* LightingViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightingViewController2.m; sourceTree = "<group>"; };
+		81AF3971241F04F700E2136B /* MaterialBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialBehaviour1.m; sourceTree = "<group>"; };
+		81AF3972241F04F700E2136B /* MaterialBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialBehaviour1.h; sourceTree = "<group>"; };
+		81AF3974241F05E700E2136B /* LightingViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightingViewController3.m; sourceTree = "<group>"; };
+		81AF3975241F05E700E2136B /* LightingViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightingViewController3.h; sourceTree = "<group>"; };
 		81C6E65B2415C26A00DB88F2 /* RectangleBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleBehaviour1.h; sourceTree = "<group>"; };
 		81C6E65C2415C26A00DB88F2 /* RectangleBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleBehaviour1.m; sourceTree = "<group>"; };
 		81C6E65E2415C2B200DB88F2 /* RectangleViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleViewController1.m; sourceTree = "<group>"; };
@@ -133,6 +139,8 @@
 		815FFBA52407468D00B05529 /* Behaviour */ = {
 			isa = PBXGroup;
 			children = (
+				81AF3972241F04F700E2136B /* MaterialBehaviour1.h */,
+				81AF3971241F04F700E2136B /* MaterialBehaviour1.m */,
 				81C6E65B2415C26A00DB88F2 /* RectangleBehaviour1.h */,
 				81C6E65C2415C26A00DB88F2 /* RectangleBehaviour1.m */,
 				815FFBAA2407468D00B05529 /* TriangleBehaviour1.h */,
@@ -148,6 +156,8 @@
 		815FFBAC2407468D00B05529 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				81AF3975241F05E700E2136B /* LightingViewController3.h */,
+				81AF3974241F05E700E2136B /* LightingViewController3.m */,
 				81C6E65F2415C2B200DB88F2 /* RectangleViewController1.h */,
 				81C6E65E2415C2B200DB88F2 /* RectangleViewController1.m */,
 				81AE59852410EB0100330B8F /* LightingViewController1.h */,
@@ -302,7 +312,9 @@
 				814EB07C2418613C00AC500C /* CircleBehaviour1.m in Sources */,
 				815FFB9D240745A200B05529 /* main.m in Sources */,
 				815FFD87240748BE00B05529 /* CubeViewController1.m in Sources */,
+				81AF3973241F04F700E2136B /* MaterialBehaviour1.m in Sources */,
 				815FFB8F240745A000B05529 /* AppDelegate.m in Sources */,
+				81AF3976241F05E700E2136B /* LightingViewController3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -63,6 +63,7 @@
     return;
 }
 - (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
     for (CubeBehaviour1* behaviour in self->behaviours) {
         [behaviour onDestroy];
     }

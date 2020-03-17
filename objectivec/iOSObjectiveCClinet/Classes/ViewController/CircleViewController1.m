@@ -51,6 +51,7 @@
     return;
 }
 - (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
     for (CircleBehaviour1* behaviour in self->behaviours) {
         [behaviour onDestroy];
     }

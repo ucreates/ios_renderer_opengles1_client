@@ -6,16 +6,22 @@
 // This source code is the property of U-CREATES.
 // If such findings are accepted at any time.
 // We hope the tips and helpful in developing.
-// Triangle1
 // ======================================================================
-#import "TriangleBehaviour1.h"
-@interface TriangleBehaviour1 ()
+#import "MaterialBehaviour1.h"
+@interface MaterialBehaviour1 ()
+@property double rotate;
 @end
-@implementation TriangleBehaviour1
+@implementation MaterialBehaviour1
 @synthesize asset;
+@synthesize rotate;
 - (id)init {
     self = [super init];
-    self->asset = [[TriangleAsset1 alloc] init:1.0f height:1.0f color:GLESColor.white];
+    Material* material = [[Material alloc] init];
+    [material setAmbient:[[GLESColor alloc] init:1.0f g:0.0f b:0.0f a:1.0f]];
+    [material setDiffuse:[[GLESColor alloc] init:0.0f g:1.0f b:0.0f a:1.0f]];
+    [material setSpecular:[[GLESColor alloc] init:1.0f g:1.0f b:1.0f a:1.0f]];
+    self->asset = [[CubeAsset1 alloc] init:1.0f height:1.0f depth:1.0f color:GLESColor.white];
+    [self->asset setMaterial:material];
     [self->asset create];
     return self;
 }
@@ -25,8 +31,10 @@
 - (void)onUpdate:(NSTimeInterval)delta {
     [self->asset.transform setPosition:0.0f y:0.0f z:0.0f];
     [self->asset.transform setScale:1.0f y:1.0f z:1.0f];
-    [self->asset.transform setRotation:0.0f y:0.0f z:0.0f];
+    [self->asset.transform setRotation:self->rotate y:self->rotate z:self->rotate];
     [self->asset.vertex setRandomColor];
+    [self.timeLine next:delta];
+    self->rotate += 1.0f;
     return;
 }
 - (void)onDestroy {
