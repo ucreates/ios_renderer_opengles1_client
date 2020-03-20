@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		811A48AC24219A2300C2BE66 /* SphereViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 811A48AA24219A2300C2BE66 /* SphereViewController1.m */; };
+		811A48AF24219A9200C2BE66 /* SphereBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 811A48AE24219A9200C2BE66 /* SphereBehaviour1.m */; };
+		811A48B62421A43400C2BE66 /* LightingViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 811A48B52421A43400C2BE66 /* LightingViewController4.m */; };
 		814EB07C2418613C00AC500C /* CircleBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 814EB07B2418613C00AC500C /* CircleBehaviour1.m */; };
 		814EB07F2418629600AC500C /* CircleViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 814EB07D2418629500AC500C /* CircleViewController1.m */; };
 		815FFB8F240745A000B05529 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 815FFB8E240745A000B05529 /* AppDelegate.m */; };
@@ -18,6 +21,8 @@
 		815FFCE72407468D00B05529 /* TriangleBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 815FFBA72407468D00B05529 /* TriangleBehaviour1.m */; };
 		815FFD022407468D00B05529 /* TriangleViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 815FFBE62407468D00B05529 /* TriangleViewController1.m */; };
 		815FFD87240748BE00B05529 /* CubeViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 815FFD86240748BE00B05529 /* CubeViewController1.m */; };
+		8162E78324234581000E23C7 /* MaterialBehaviour2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8162E78124234581000E23C7 /* MaterialBehaviour2.m */; };
+		8162E78624234601000E23C7 /* LightingViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 8162E78524234601000E23C7 /* LightingViewController5.m */; };
 		81AE59892410EB0100330B8F /* LightingViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE59872410EB0100330B8F /* LightingViewController1.m */; };
 		81AE598A2410EB0100330B8F /* LightingViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE59882410EB0100330B8F /* LightingViewController2.m */; };
 		81AF3973241F04F700E2136B /* MaterialBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AF3971241F04F700E2136B /* MaterialBehaviour1.m */; };
@@ -31,6 +36,12 @@
 		511951C9D07E8229E4A713EC /* Pods-iOSObjectiveCClinet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSObjectiveCClinet.release.xcconfig"; path = "Target Support Files/Pods-iOSObjectiveCClinet/Pods-iOSObjectiveCClinet.release.xcconfig"; sourceTree = "<group>"; };
 		8106334922D309F700A2073A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8106334B22D30AFC00A2073A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		811A48AA24219A2300C2BE66 /* SphereViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereViewController1.m; sourceTree = "<group>"; };
+		811A48AB24219A2300C2BE66 /* SphereViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereViewController1.h; sourceTree = "<group>"; };
+		811A48AD24219A9200C2BE66 /* SphereBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereBehaviour1.h; sourceTree = "<group>"; };
+		811A48AE24219A9200C2BE66 /* SphereBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereBehaviour1.m; sourceTree = "<group>"; };
+		811A48B42421A43400C2BE66 /* LightingViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightingViewController4.h; sourceTree = "<group>"; };
+		811A48B52421A43400C2BE66 /* LightingViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightingViewController4.m; sourceTree = "<group>"; };
 		814EB07A2418613C00AC500C /* CircleBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleBehaviour1.h; sourceTree = "<group>"; };
 		814EB07B2418613C00AC500C /* CircleBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleBehaviour1.m; sourceTree = "<group>"; };
 		814EB07D2418629500AC500C /* CircleViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleViewController1.m; sourceTree = "<group>"; };
@@ -51,6 +62,10 @@
 		815FFC3C2407468D00B05529 /* CubeViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeViewController1.h; sourceTree = "<group>"; };
 		815FFD85240748BD00B05529 /* TriangleViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleViewController1.h; sourceTree = "<group>"; };
 		815FFD86240748BE00B05529 /* CubeViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeViewController1.m; sourceTree = "<group>"; };
+		8162E78124234581000E23C7 /* MaterialBehaviour2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialBehaviour2.m; sourceTree = "<group>"; };
+		8162E78224234581000E23C7 /* MaterialBehaviour2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialBehaviour2.h; sourceTree = "<group>"; };
+		8162E78424234601000E23C7 /* LightingViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightingViewController5.h; sourceTree = "<group>"; };
+		8162E78524234601000E23C7 /* LightingViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightingViewController5.m; sourceTree = "<group>"; };
 		818329B023F0EF1500356D30 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		81AE59852410EB0100330B8F /* LightingViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightingViewController1.h; sourceTree = "<group>"; };
 		81AE59862410EB0100330B8F /* LightingViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightingViewController2.h; sourceTree = "<group>"; };
@@ -139,6 +154,10 @@
 		815FFBA52407468D00B05529 /* Behaviour */ = {
 			isa = PBXGroup;
 			children = (
+				8162E78224234581000E23C7 /* MaterialBehaviour2.h */,
+				8162E78124234581000E23C7 /* MaterialBehaviour2.m */,
+				811A48AD24219A9200C2BE66 /* SphereBehaviour1.h */,
+				811A48AE24219A9200C2BE66 /* SphereBehaviour1.m */,
 				81AF3972241F04F700E2136B /* MaterialBehaviour1.h */,
 				81AF3971241F04F700E2136B /* MaterialBehaviour1.m */,
 				81C6E65B2415C26A00DB88F2 /* RectangleBehaviour1.h */,
@@ -156,6 +175,12 @@
 		815FFBAC2407468D00B05529 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8162E78424234601000E23C7 /* LightingViewController5.h */,
+				8162E78524234601000E23C7 /* LightingViewController5.m */,
+				811A48B42421A43400C2BE66 /* LightingViewController4.h */,
+				811A48B52421A43400C2BE66 /* LightingViewController4.m */,
+				811A48AB24219A2300C2BE66 /* SphereViewController1.h */,
+				811A48AA24219A2300C2BE66 /* SphereViewController1.m */,
 				81AF3975241F05E700E2136B /* LightingViewController3.h */,
 				81AF3974241F05E700E2136B /* LightingViewController3.m */,
 				81C6E65F2415C2B200DB88F2 /* RectangleViewController1.h */,
@@ -303,18 +328,23 @@
 			files = (
 				81C6E65D2415C26A00DB88F2 /* RectangleBehaviour1.m in Sources */,
 				815FFD022407468D00B05529 /* TriangleViewController1.m in Sources */,
+				811A48B62421A43400C2BE66 /* LightingViewController4.m in Sources */,
 				81C6E6602415C2B200DB88F2 /* RectangleViewController1.m in Sources */,
 				81AE59892410EB0100330B8F /* LightingViewController1.m in Sources */,
 				814EB07F2418629600AC500C /* CircleViewController1.m in Sources */,
 				815FFCE72407468D00B05529 /* TriangleBehaviour1.m in Sources */,
 				81AE598A2410EB0100330B8F /* LightingViewController2.m in Sources */,
 				815FFCE62407468D00B05529 /* CubeBehaviour1.m in Sources */,
+				8162E78624234601000E23C7 /* LightingViewController5.m in Sources */,
 				814EB07C2418613C00AC500C /* CircleBehaviour1.m in Sources */,
 				815FFB9D240745A200B05529 /* main.m in Sources */,
+				811A48AF24219A9200C2BE66 /* SphereBehaviour1.m in Sources */,
 				815FFD87240748BE00B05529 /* CubeViewController1.m in Sources */,
+				811A48AC24219A2300C2BE66 /* SphereViewController1.m in Sources */,
 				81AF3973241F04F700E2136B /* MaterialBehaviour1.m in Sources */,
 				815FFB8F240745A000B05529 /* AppDelegate.m in Sources */,
 				81AF3976241F05E700E2136B /* LightingViewController3.m in Sources */,
+				8162E78324234581000E23C7 /* MaterialBehaviour2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
