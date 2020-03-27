@@ -7,16 +7,16 @@
 // If such findings are accepted at any time.
 // We hope the tips and helpful in developing.
 // ======================================================================
-#import "TextureBehaviour1.h"
-@interface TextureBehaviour1 ()
+#import "TextureBehaviour3.h"
+@interface TextureBehaviour3 ()
 @end
-@implementation TextureBehaviour1
+@implementation TextureBehaviour3
 @synthesize asset;
 - (id)init {
     self = [super init];
     NSBundle* bundle = [NSBundle mainBundle];
     NSString* path = [bundle pathForResource:@"texture01" ofType:@"jpg"];
-    self->asset = [[TriangleAsset1 alloc] init:1.0f height:1.0f color:GLESColor.white];
+    self->asset = [[RectangleAsset1 alloc] init:1.0f height:1.0f color:GLESColor.white];
     [self->asset create:path];
     return self;
 }

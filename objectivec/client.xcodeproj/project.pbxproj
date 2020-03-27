@@ -35,6 +35,10 @@
 		81AF3976241F05E700E2136B /* LightingViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AF3974241F05E700E2136B /* LightingViewController3.m */; };
 		81C6E65D2415C26A00DB88F2 /* RectangleBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C6E65C2415C26A00DB88F2 /* RectangleBehaviour1.m */; };
 		81C6E6602415C2B200DB88F2 /* RectangleViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C6E65E2415C2B200DB88F2 /* RectangleViewController1.m */; };
+		81CF7F0B242B215500D9F6A5 /* TextureBehaviour3.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CF7F09242B215500D9F6A5 /* TextureBehaviour3.m */; };
+		81CF7F0E242B21DF00D9F6A5 /* TextureViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CF7F0C242B21DF00D9F6A5 /* TextureViewController3.m */; };
+		81CF7F11242B239900D9F6A5 /* TextureBehaviour4.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CF7F10242B239800D9F6A5 /* TextureBehaviour4.m */; };
+		81CF7F14242B23E000D9F6A5 /* TextureViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CF7F12242B23E000D9F6A5 /* TextureViewController4.m */; };
 		F7172B7C1BF425A48FAC31BF /* Pods_iOSObjectiveCClinet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AE05A170E15ED2ECA07E0C /* Pods_iOSObjectiveCClinet.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +99,14 @@
 		81C6E65C2415C26A00DB88F2 /* RectangleBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleBehaviour1.m; sourceTree = "<group>"; };
 		81C6E65E2415C2B200DB88F2 /* RectangleViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleViewController1.m; sourceTree = "<group>"; };
 		81C6E65F2415C2B200DB88F2 /* RectangleViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleViewController1.h; sourceTree = "<group>"; };
+		81CF7F09242B215500D9F6A5 /* TextureBehaviour3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureBehaviour3.m; sourceTree = "<group>"; };
+		81CF7F0A242B215500D9F6A5 /* TextureBehaviour3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureBehaviour3.h; sourceTree = "<group>"; };
+		81CF7F0C242B21DF00D9F6A5 /* TextureViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureViewController3.m; sourceTree = "<group>"; };
+		81CF7F0D242B21DF00D9F6A5 /* TextureViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureViewController3.h; sourceTree = "<group>"; };
+		81CF7F0F242B239800D9F6A5 /* TextureBehaviour4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureBehaviour4.h; sourceTree = "<group>"; };
+		81CF7F10242B239800D9F6A5 /* TextureBehaviour4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureBehaviour4.m; sourceTree = "<group>"; };
+		81CF7F12242B23E000D9F6A5 /* TextureViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureViewController4.m; sourceTree = "<group>"; };
+		81CF7F13242B23E000D9F6A5 /* TextureViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureViewController4.h; sourceTree = "<group>"; };
 		A3AE05A170E15ED2ECA07E0C /* Pods_iOSObjectiveCClinet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSObjectiveCClinet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D4BDD5B8F7EC13BACC8DB9 /* Pods-iOSObjectiveCTestClinet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSObjectiveCTestClinet.debug.xcconfig"; path = "Target Support Files/Pods-iOSObjectiveCTestClinet/Pods-iOSObjectiveCTestClinet.debug.xcconfig"; sourceTree = "<group>"; };
 		BD239EE98EF062C7CE426B30 /* Pods-iOSObjectiveCClinet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSObjectiveCClinet.debug.xcconfig"; path = "Target Support Files/Pods-iOSObjectiveCClinet/Pods-iOSObjectiveCClinet.debug.xcconfig"; sourceTree = "<group>"; };
@@ -180,6 +192,10 @@
 		815FFBA52407468D00B05529 /* Behaviour */ = {
 			isa = PBXGroup;
 			children = (
+				81CF7F0F242B239800D9F6A5 /* TextureBehaviour4.h */,
+				81CF7F10242B239800D9F6A5 /* TextureBehaviour4.m */,
+				81CF7F0A242B215500D9F6A5 /* TextureBehaviour3.h */,
+				81CF7F09242B215500D9F6A5 /* TextureBehaviour3.m */,
 				816BC89C2429E89100B0D627 /* TextureBehaviour2.h */,
 				816BC89B2429E89100B0D627 /* TextureBehaviour2.m */,
 				8162E78224234581000E23C7 /* MaterialBehaviour2.h */,
@@ -205,6 +221,10 @@
 		815FFBAC2407468D00B05529 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				81CF7F13242B23E000D9F6A5 /* TextureViewController4.h */,
+				81CF7F12242B23E000D9F6A5 /* TextureViewController4.m */,
+				81CF7F0D242B21DF00D9F6A5 /* TextureViewController3.h */,
+				81CF7F0C242B21DF00D9F6A5 /* TextureViewController3.m */,
 				816BC89E2429E8D400B0D627 /* TextureViewController2.h */,
 				816BC89F2429E8D400B0D627 /* TextureViewController2.m */,
 				8158034B2426F1E700377909 /* TextureViewController1.h */,
@@ -362,6 +382,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81CF7F14242B23E000D9F6A5 /* TextureViewController4.m in Sources */,
+				81CF7F11242B239900D9F6A5 /* TextureBehaviour4.m in Sources */,
 				81C6E65D2415C26A00DB88F2 /* RectangleBehaviour1.m in Sources */,
 				815FFD022407468D00B05529 /* TriangleViewController1.m in Sources */,
 				811A48B62421A43400C2BE66 /* LightingViewController4.m in Sources */,
@@ -377,12 +399,14 @@
 				816BC8A02429E8D400B0D627 /* TextureViewController2.m in Sources */,
 				814EB07C2418613C00AC500C /* CircleBehaviour1.m in Sources */,
 				815803492426F0F400377909 /* TextureBehaviour1.m in Sources */,
+				81CF7F0B242B215500D9F6A5 /* TextureBehaviour3.m in Sources */,
 				815FFB9D240745A200B05529 /* main.m in Sources */,
 				811A48AF24219A9200C2BE66 /* SphereBehaviour1.m in Sources */,
 				815FFD87240748BE00B05529 /* CubeViewController1.m in Sources */,
 				811A48AC24219A2300C2BE66 /* SphereViewController1.m in Sources */,
 				81AF3973241F04F700E2136B /* MaterialBehaviour1.m in Sources */,
 				815FFB8F240745A000B05529 /* AppDelegate.m in Sources */,
+				81CF7F0E242B21DF00D9F6A5 /* TextureViewController3.m in Sources */,
 				81AF3976241F05E700E2136B /* LightingViewController3.m in Sources */,
 				8162E78324234581000E23C7 /* MaterialBehaviour2.m in Sources */,
 			);
