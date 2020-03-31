@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81126BBD2433941C0039D431 /* TextureBehaviour6.m in Sources */ = {isa = PBXBuildFile; fileRef = 81126BBC2433941C0039D431 /* TextureBehaviour6.m */; };
+		81126BC0243394620039D431 /* TextureViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = 81126BBF243394620039D431 /* TextureViewController6.m */; };
 		811A48AC24219A2300C2BE66 /* SphereViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 811A48AA24219A2300C2BE66 /* SphereViewController1.m */; };
 		811A48AF24219A9200C2BE66 /* SphereBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 811A48AE24219A9200C2BE66 /* SphereBehaviour1.m */; };
 		811A48B62421A43400C2BE66 /* LightingViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 811A48B52421A43400C2BE66 /* LightingViewController4.m */; };
+		811F5BDC2430DA73001C4485 /* TextureBehaviour5.m in Sources */ = {isa = PBXBuildFile; fileRef = 811F5BDA2430DA73001C4485 /* TextureBehaviour5.m */; };
+		811F5BDF2430DAC5001C4485 /* TextureViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 811F5BDE2430DAC5001C4485 /* TextureViewController5.m */; };
 		814EB07C2418613C00AC500C /* CircleBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 814EB07B2418613C00AC500C /* CircleBehaviour1.m */; };
 		814EB07F2418629600AC500C /* CircleViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 814EB07D2418629500AC500C /* CircleViewController1.m */; };
 		815803492426F0F400377909 /* TextureBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 815803482426F0F400377909 /* TextureBehaviour1.m */; };
@@ -46,12 +50,20 @@
 		511951C9D07E8229E4A713EC /* Pods-iOSObjectiveCClinet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSObjectiveCClinet.release.xcconfig"; path = "Target Support Files/Pods-iOSObjectiveCClinet/Pods-iOSObjectiveCClinet.release.xcconfig"; sourceTree = "<group>"; };
 		8106334922D309F700A2073A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8106334B22D30AFC00A2073A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		81126BBB2433941B0039D431 /* TextureBehaviour6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureBehaviour6.h; sourceTree = "<group>"; };
+		81126BBC2433941C0039D431 /* TextureBehaviour6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureBehaviour6.m; sourceTree = "<group>"; };
+		81126BBE243394620039D431 /* TextureViewController6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureViewController6.h; sourceTree = "<group>"; };
+		81126BBF243394620039D431 /* TextureViewController6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureViewController6.m; sourceTree = "<group>"; };
 		811A48AA24219A2300C2BE66 /* SphereViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereViewController1.m; sourceTree = "<group>"; };
 		811A48AB24219A2300C2BE66 /* SphereViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereViewController1.h; sourceTree = "<group>"; };
 		811A48AD24219A9200C2BE66 /* SphereBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereBehaviour1.h; sourceTree = "<group>"; };
 		811A48AE24219A9200C2BE66 /* SphereBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereBehaviour1.m; sourceTree = "<group>"; };
 		811A48B42421A43400C2BE66 /* LightingViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightingViewController4.h; sourceTree = "<group>"; };
 		811A48B52421A43400C2BE66 /* LightingViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightingViewController4.m; sourceTree = "<group>"; };
+		811F5BDA2430DA73001C4485 /* TextureBehaviour5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureBehaviour5.m; sourceTree = "<group>"; };
+		811F5BDB2430DA73001C4485 /* TextureBehaviour5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureBehaviour5.h; sourceTree = "<group>"; };
+		811F5BDD2430DAC5001C4485 /* TextureViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureViewController5.h; sourceTree = "<group>"; };
+		811F5BDE2430DAC5001C4485 /* TextureViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureViewController5.m; sourceTree = "<group>"; };
 		814EB07A2418613C00AC500C /* CircleBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleBehaviour1.h; sourceTree = "<group>"; };
 		814EB07B2418613C00AC500C /* CircleBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleBehaviour1.m; sourceTree = "<group>"; };
 		814EB07D2418629500AC500C /* CircleViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleViewController1.m; sourceTree = "<group>"; };
@@ -192,6 +204,10 @@
 		815FFBA52407468D00B05529 /* Behaviour */ = {
 			isa = PBXGroup;
 			children = (
+				81126BBB2433941B0039D431 /* TextureBehaviour6.h */,
+				81126BBC2433941C0039D431 /* TextureBehaviour6.m */,
+				811F5BDB2430DA73001C4485 /* TextureBehaviour5.h */,
+				811F5BDA2430DA73001C4485 /* TextureBehaviour5.m */,
 				81CF7F0F242B239800D9F6A5 /* TextureBehaviour4.h */,
 				81CF7F10242B239800D9F6A5 /* TextureBehaviour4.m */,
 				81CF7F0A242B215500D9F6A5 /* TextureBehaviour3.h */,
@@ -221,6 +237,10 @@
 		815FFBAC2407468D00B05529 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				81126BBE243394620039D431 /* TextureViewController6.h */,
+				81126BBF243394620039D431 /* TextureViewController6.m */,
+				811F5BDD2430DAC5001C4485 /* TextureViewController5.h */,
+				811F5BDE2430DAC5001C4485 /* TextureViewController5.m */,
 				81CF7F13242B23E000D9F6A5 /* TextureViewController4.h */,
 				81CF7F12242B23E000D9F6A5 /* TextureViewController4.m */,
 				81CF7F0D242B21DF00D9F6A5 /* TextureViewController3.h */,
@@ -395,15 +415,19 @@
 				81AE598A2410EB0100330B8F /* LightingViewController2.m in Sources */,
 				815FFCE62407468D00B05529 /* CubeBehaviour1.m in Sources */,
 				816BC89D2429E89100B0D627 /* TextureBehaviour2.m in Sources */,
+				811F5BDC2430DA73001C4485 /* TextureBehaviour5.m in Sources */,
 				8162E78624234601000E23C7 /* LightingViewController5.m in Sources */,
 				816BC8A02429E8D400B0D627 /* TextureViewController2.m in Sources */,
+				81126BC0243394620039D431 /* TextureViewController6.m in Sources */,
 				814EB07C2418613C00AC500C /* CircleBehaviour1.m in Sources */,
+				811F5BDF2430DAC5001C4485 /* TextureViewController5.m in Sources */,
 				815803492426F0F400377909 /* TextureBehaviour1.m in Sources */,
 				81CF7F0B242B215500D9F6A5 /* TextureBehaviour3.m in Sources */,
 				815FFB9D240745A200B05529 /* main.m in Sources */,
 				811A48AF24219A9200C2BE66 /* SphereBehaviour1.m in Sources */,
 				815FFD87240748BE00B05529 /* CubeViewController1.m in Sources */,
 				811A48AC24219A2300C2BE66 /* SphereViewController1.m in Sources */,
+				81126BBD2433941C0039D431 /* TextureBehaviour6.m in Sources */,
 				81AF3973241F04F700E2136B /* MaterialBehaviour1.m in Sources */,
 				815FFB8F240745A000B05529 /* AppDelegate.m in Sources */,
 				81CF7F0E242B21DF00D9F6A5 /* TextureViewController3.m in Sources */,
