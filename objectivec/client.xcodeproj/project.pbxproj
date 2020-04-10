@@ -45,6 +45,8 @@
 		81AE598A2410EB0100330B8F /* LightingViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE59882410EB0100330B8F /* LightingViewController2.m */; };
 		81AF3973241F04F700E2136B /* MaterialBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AF3971241F04F700E2136B /* MaterialBehaviour1.m */; };
 		81AF3976241F05E700E2136B /* LightingViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AF3974241F05E700E2136B /* LightingViewController3.m */; };
+		81B76E20243EB79200ADD9A6 /* FogBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B76E1E243EB79100ADD9A6 /* FogBehaviour1.m */; };
+		81B76E23243EB83700ADD9A6 /* FogViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B76E21243EB83700ADD9A6 /* FogViewController1.m */; };
 		81C6E65D2415C26A00DB88F2 /* RectangleBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C6E65C2415C26A00DB88F2 /* RectangleBehaviour1.m */; };
 		81C6E6602415C2B200DB88F2 /* RectangleViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C6E65E2415C2B200DB88F2 /* RectangleViewController1.m */; };
 		81CF7F0B242B215500D9F6A5 /* TextureBehaviour3.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CF7F09242B215500D9F6A5 /* TextureBehaviour3.m */; };
@@ -131,6 +133,10 @@
 		81AF3972241F04F700E2136B /* MaterialBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialBehaviour1.h; sourceTree = "<group>"; };
 		81AF3974241F05E700E2136B /* LightingViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightingViewController3.m; sourceTree = "<group>"; };
 		81AF3975241F05E700E2136B /* LightingViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightingViewController3.h; sourceTree = "<group>"; };
+		81B76E1E243EB79100ADD9A6 /* FogBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FogBehaviour1.m; sourceTree = "<group>"; };
+		81B76E1F243EB79200ADD9A6 /* FogBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FogBehaviour1.h; sourceTree = "<group>"; };
+		81B76E21243EB83700ADD9A6 /* FogViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FogViewController1.m; sourceTree = "<group>"; };
+		81B76E22243EB83700ADD9A6 /* FogViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FogViewController1.h; sourceTree = "<group>"; };
 		81C6E65B2415C26A00DB88F2 /* RectangleBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleBehaviour1.h; sourceTree = "<group>"; };
 		81C6E65C2415C26A00DB88F2 /* RectangleBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleBehaviour1.m; sourceTree = "<group>"; };
 		81C6E65E2415C2B200DB88F2 /* RectangleViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleViewController1.m; sourceTree = "<group>"; };
@@ -228,6 +234,8 @@
 		815FFBA52407468D00B05529 /* Behaviour */ = {
 			isa = PBXGroup;
 			children = (
+				81B76E1F243EB79200ADD9A6 /* FogBehaviour1.h */,
+				81B76E1E243EB79100ADD9A6 /* FogBehaviour1.m */,
 				815E96C3243B1E9F009AD254 /* TextureBehaviour10.h */,
 				815E96C4243B1E9F009AD254 /* TextureBehaviour10.m */,
 				815E96BD243B1B43009AD254 /* TextureBehaviour9.h */,
@@ -269,6 +277,8 @@
 		815FFBAC2407468D00B05529 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				81B76E22243EB83700ADD9A6 /* FogViewController1.h */,
+				81B76E21243EB83700ADD9A6 /* FogViewController1.m */,
 				815E96C6243B1EE7009AD254 /* TextureViewController10.h */,
 				815E96C7243B1EE7009AD254 /* TextureViewController10.m */,
 				815E96C1243B1B9F009AD254 /* TextureViewController9.h */,
@@ -463,6 +473,7 @@
 				814EB07C2418613C00AC500C /* CircleBehaviour1.m in Sources */,
 				811F5BDF2430DAC5001C4485 /* TextureViewController5.m in Sources */,
 				815803492426F0F400377909 /* TextureBehaviour1.m in Sources */,
+				81B76E23243EB83700ADD9A6 /* FogViewController1.m in Sources */,
 				81CF7F0B242B215500D9F6A5 /* TextureBehaviour3.m in Sources */,
 				815FFB9D240745A200B05529 /* main.m in Sources */,
 				811A48AF24219A9200C2BE66 /* SphereBehaviour1.m in Sources */,
@@ -470,6 +481,7 @@
 				811A48AC24219A2300C2BE66 /* SphereViewController1.m in Sources */,
 				81126BBD2433941C0039D431 /* TextureBehaviour6.m in Sources */,
 				81AF3973241F04F700E2136B /* MaterialBehaviour1.m in Sources */,
+				81B76E20243EB79200ADD9A6 /* FogBehaviour1.m in Sources */,
 				8119269A24349409004156D7 /* TextureViewController7.m in Sources */,
 				81192697243493B1004156D7 /* TextureBehaviour7.m in Sources */,
 				815FFB8F240745A000B05529 /* AppDelegate.m in Sources */,
