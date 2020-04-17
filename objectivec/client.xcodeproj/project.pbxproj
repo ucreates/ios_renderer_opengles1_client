@@ -16,6 +16,9 @@
 		811A48B62421A43400C2BE66 /* LightingViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 811A48B52421A43400C2BE66 /* LightingViewController4.m */; };
 		811F5BDC2430DA73001C4485 /* TextureBehaviour5.m in Sources */ = {isa = PBXBuildFile; fileRef = 811F5BDA2430DA73001C4485 /* TextureBehaviour5.m */; };
 		811F5BDF2430DAC5001C4485 /* TextureViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 811F5BDE2430DAC5001C4485 /* TextureViewController5.m */; };
+		813783152447E8BA00D8CB0E /* texture03.png in Resources */ = {isa = PBXBuildFile; fileRef = 813783142447E8BA00D8CB0E /* texture03.png */; };
+		813783182447E8E700D8CB0E /* TextureBehaviour11.m in Sources */ = {isa = PBXBuildFile; fileRef = 813783162447E8E700D8CB0E /* TextureBehaviour11.m */; };
+		8137831B2447E94B00D8CB0E /* TextureViewController11.m in Sources */ = {isa = PBXBuildFile; fileRef = 813783192447E94B00D8CB0E /* TextureViewController11.m */; };
 		814EB07C2418613C00AC500C /* CircleBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 814EB07B2418613C00AC500C /* CircleBehaviour1.m */; };
 		814EB07F2418629600AC500C /* CircleViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 814EB07D2418629500AC500C /* CircleViewController1.m */; };
 		815803492426F0F400377909 /* TextureBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 815803482426F0F400377909 /* TextureBehaviour1.m */; };
@@ -83,6 +86,11 @@
 		811F5BDB2430DA73001C4485 /* TextureBehaviour5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureBehaviour5.h; sourceTree = "<group>"; };
 		811F5BDD2430DAC5001C4485 /* TextureViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureViewController5.h; sourceTree = "<group>"; };
 		811F5BDE2430DAC5001C4485 /* TextureViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureViewController5.m; sourceTree = "<group>"; };
+		813783142447E8BA00D8CB0E /* texture03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture03.png; sourceTree = "<group>"; };
+		813783162447E8E700D8CB0E /* TextureBehaviour11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureBehaviour11.m; sourceTree = "<group>"; };
+		813783172447E8E700D8CB0E /* TextureBehaviour11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureBehaviour11.h; sourceTree = "<group>"; };
+		813783192447E94B00D8CB0E /* TextureViewController11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureViewController11.m; sourceTree = "<group>"; };
+		8137831A2447E94B00D8CB0E /* TextureViewController11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureViewController11.h; sourceTree = "<group>"; };
 		814EB07A2418613C00AC500C /* CircleBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleBehaviour1.h; sourceTree = "<group>"; };
 		814EB07B2418613C00AC500C /* CircleBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleBehaviour1.m; sourceTree = "<group>"; };
 		814EB07D2418629500AC500C /* CircleViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleViewController1.m; sourceTree = "<group>"; };
@@ -217,6 +225,7 @@
 			children = (
 				8158034E2426F2D700377909 /* texture01.jpg */,
 				8158034F2426F2D700377909 /* texture02.jpg */,
+				813783142447E8BA00D8CB0E /* texture03.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -259,6 +268,8 @@
 				81D038C32443EDF4002367AB /* BlendBehaviour1.m */,
 				81B76E1F243EB79200ADD9A6 /* FogBehaviour1.h */,
 				81B76E1E243EB79100ADD9A6 /* FogBehaviour1.m */,
+				813783172447E8E700D8CB0E /* TextureBehaviour11.h */,
+				813783162447E8E700D8CB0E /* TextureBehaviour11.m */,
 				815E96C3243B1E9F009AD254 /* TextureBehaviour10.h */,
 				815E96C4243B1E9F009AD254 /* TextureBehaviour10.m */,
 				815E96BD243B1B43009AD254 /* TextureBehaviour9.h */,
@@ -304,6 +315,8 @@
 				81D038C62443F054002367AB /* BlendViewController1.m */,
 				81B76E22243EB83700ADD9A6 /* FogViewController1.h */,
 				81B76E21243EB83700ADD9A6 /* FogViewController1.m */,
+				8137831A2447E94B00D8CB0E /* TextureViewController11.h */,
+				813783192447E94B00D8CB0E /* TextureViewController11.m */,
 				815E96C6243B1EE7009AD254 /* TextureViewController10.h */,
 				815E96C7243B1EE7009AD254 /* TextureViewController10.m */,
 				815E96C1243B1B9F009AD254 /* TextureViewController9.h */,
@@ -422,6 +435,7 @@
 			files = (
 				815FFB9A240745A200B05529 /* LaunchScreen.storyboard in Resources */,
 				815FFB97240745A200B05529 /* Assets.xcassets in Resources */,
+				813783152447E8BA00D8CB0E /* texture03.png in Resources */,
 				815803502426F2D800377909 /* texture01.jpg in Resources */,
 				815803512426F2D800377909 /* texture02.jpg in Resources */,
 				815FFB95240745A000B05529 /* Main.storyboard in Resources */,
@@ -515,11 +529,13 @@
 				81192697243493B1004156D7 /* TextureBehaviour7.m in Sources */,
 				815FFB8F240745A000B05529 /* AppDelegate.m in Sources */,
 				815E96C2243B1B9F009AD254 /* TextureViewController9.m in Sources */,
+				8137831B2447E94B00D8CB0E /* TextureViewController11.m in Sources */,
 				8175584D243734C200810163 /* TextureBehaviour8.m in Sources */,
 				81D038D02443F574002367AB /* BlendBehaviour3.m in Sources */,
 				81CF7F0E242B21DF00D9F6A5 /* TextureViewController3.m in Sources */,
 				815E96C5243B1E9F009AD254 /* TextureBehaviour10.m in Sources */,
 				815E96C8243B1EE7009AD254 /* TextureViewController10.m in Sources */,
+				813783182447E8E700D8CB0E /* TextureBehaviour11.m in Sources */,
 				815E96BF243B1B43009AD254 /* TextureBehaviour9.m in Sources */,
 				81AF3976241F05E700E2136B /* LightingViewController3.m in Sources */,
 				8162E78324234581000E23C7 /* MaterialBehaviour2.m in Sources */,
