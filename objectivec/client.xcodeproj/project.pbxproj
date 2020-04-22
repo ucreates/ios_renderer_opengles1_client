@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8109D019244D6C8000152145 /* ShaderBehaviour2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8109D018244D6C8000152145 /* ShaderBehaviour2.m */; };
+		8109D01C244D71BC00152145 /* ShaderViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8109D01A244D71BC00152145 /* ShaderViewController1.m */; };
 		81126BBD2433941C0039D431 /* TextureBehaviour6.m in Sources */ = {isa = PBXBuildFile; fileRef = 81126BBC2433941C0039D431 /* TextureBehaviour6.m */; };
 		81126BC0243394620039D431 /* TextureViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = 81126BBF243394620039D431 /* TextureViewController6.m */; };
 		81192697243493B1004156D7 /* TextureBehaviour7.m in Sources */ = {isa = PBXBuildFile; fileRef = 81192696243493B0004156D7 /* TextureBehaviour7.m */; };
@@ -68,6 +70,10 @@
 		511951C9D07E8229E4A713EC /* Pods-iOSObjectiveCClinet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSObjectiveCClinet.release.xcconfig"; path = "Target Support Files/Pods-iOSObjectiveCClinet/Pods-iOSObjectiveCClinet.release.xcconfig"; sourceTree = "<group>"; };
 		8106334922D309F700A2073A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8106334B22D30AFC00A2073A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8109D017244D6C8000152145 /* ShaderBehaviour2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderBehaviour2.h; sourceTree = "<group>"; };
+		8109D018244D6C8000152145 /* ShaderBehaviour2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaderBehaviour2.m; sourceTree = "<group>"; };
+		8109D01A244D71BC00152145 /* ShaderViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaderViewController1.m; sourceTree = "<group>"; };
+		8109D01B244D71BC00152145 /* ShaderViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderViewController1.h; sourceTree = "<group>"; };
 		81126BBB2433941B0039D431 /* TextureBehaviour6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureBehaviour6.h; sourceTree = "<group>"; };
 		81126BBC2433941C0039D431 /* TextureBehaviour6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureBehaviour6.m; sourceTree = "<group>"; };
 		81126BBE243394620039D431 /* TextureViewController6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureViewController6.h; sourceTree = "<group>"; };
@@ -290,6 +296,8 @@
 				816BC89B2429E89100B0D627 /* TextureBehaviour2.m */,
 				8162E78224234581000E23C7 /* MaterialBehaviour2.h */,
 				8162E78124234581000E23C7 /* MaterialBehaviour2.m */,
+				8109D017244D6C8000152145 /* ShaderBehaviour2.h */,
+				8109D018244D6C8000152145 /* ShaderBehaviour2.m */,
 				811A48AD24219A9200C2BE66 /* SphereBehaviour1.h */,
 				811A48AE24219A9200C2BE66 /* SphereBehaviour1.m */,
 				81AF3972241F04F700E2136B /* MaterialBehaviour1.h */,
@@ -311,6 +319,8 @@
 		815FFBAC2407468D00B05529 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8109D01B244D71BC00152145 /* ShaderViewController1.h */,
+				8109D01A244D71BC00152145 /* ShaderViewController1.m */,
 				81D038C52443F053002367AB /* BlendViewController1.h */,
 				81D038C62443F054002367AB /* BlendViewController1.m */,
 				81B76E22243EB83700ADD9A6 /* FogViewController1.h */,
@@ -511,7 +521,9 @@
 				816BC8A02429E8D400B0D627 /* TextureViewController2.m in Sources */,
 				81126BC0243394620039D431 /* TextureViewController6.m in Sources */,
 				817558502437352000810163 /* TextureViewController8.m in Sources */,
+				8109D019244D6C8000152145 /* ShaderBehaviour2.m in Sources */,
 				814EB07C2418613C00AC500C /* CircleBehaviour1.m in Sources */,
+				8109D01C244D71BC00152145 /* ShaderViewController1.m in Sources */,
 				811F5BDF2430DAC5001C4485 /* TextureViewController5.m in Sources */,
 				815803492426F0F400377909 /* TextureBehaviour1.m in Sources */,
 				81B76E23243EB83700ADD9A6 /* FogViewController1.m in Sources */,
