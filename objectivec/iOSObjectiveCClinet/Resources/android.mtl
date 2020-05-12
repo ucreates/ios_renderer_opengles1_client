@@ -4,4 +4,5 @@ Kd 1.00 1.00 1.00
 Ka 1.00 1.00 1.00
 Tf 1.00 1.00 1.00
 map_Kd android.png
+map_Ka android_ambient_occlusion.png
 Ni 1.00

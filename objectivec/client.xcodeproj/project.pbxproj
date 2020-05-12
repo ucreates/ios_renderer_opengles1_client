@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		8109D019244D6C8000152145 /* ShaderBehaviour2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8109D018244D6C8000152145 /* ShaderBehaviour2.m */; };
 		8109D01C244D71BC00152145 /* ShaderViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8109D01A244D71BC00152145 /* ShaderViewController1.m */; };
+		810CEF872469342500F81959 /* android_ambient_occlusion.png in Resources */ = {isa = PBXBuildFile; fileRef = 810CEF862469342400F81959 /* android_ambient_occlusion.png */; };
+		810CEF89246934F400F81959 /* tank_ambient_occlusion.png in Resources */ = {isa = PBXBuildFile; fileRef = 810CEF88246934F400F81959 /* tank_ambient_occlusion.png */; };
+		810CEF8B246935EC00F81959 /* tank_tread_ambient_occlusion.png in Resources */ = {isa = PBXBuildFile; fileRef = 810CEF8A246935EC00F81959 /* tank_tread_ambient_occlusion.png */; };
 		81126BBD2433941C0039D431 /* TextureBehaviour6.m in Sources */ = {isa = PBXBuildFile; fileRef = 81126BBC2433941C0039D431 /* TextureBehaviour6.m */; };
 		81126BC0243394620039D431 /* TextureViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = 81126BBF243394620039D431 /* TextureViewController6.m */; };
 		81192697243493B1004156D7 /* TextureBehaviour7.m in Sources */ = {isa = PBXBuildFile; fileRef = 81192696243493B0004156D7 /* TextureBehaviour7.m */; };
@@ -88,6 +91,9 @@
 		8109D018244D6C8000152145 /* ShaderBehaviour2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaderBehaviour2.m; sourceTree = "<group>"; };
 		8109D01A244D71BC00152145 /* ShaderViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaderViewController1.m; sourceTree = "<group>"; };
 		8109D01B244D71BC00152145 /* ShaderViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderViewController1.h; sourceTree = "<group>"; };
+		810CEF862469342400F81959 /* android_ambient_occlusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = android_ambient_occlusion.png; sourceTree = "<group>"; };
+		810CEF88246934F400F81959 /* tank_ambient_occlusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tank_ambient_occlusion.png; sourceTree = "<group>"; };
+		810CEF8A246935EC00F81959 /* tank_tread_ambient_occlusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tank_tread_ambient_occlusion.png; sourceTree = "<group>"; };
 		81126BBB2433941B0039D431 /* TextureBehaviour6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureBehaviour6.h; sourceTree = "<group>"; };
 		81126BBC2433941C0039D431 /* TextureBehaviour6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureBehaviour6.m; sourceTree = "<group>"; };
 		81126BBE243394620039D431 /* TextureViewController6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureViewController6.h; sourceTree = "<group>"; };
@@ -263,13 +269,16 @@
 			children = (
 				816212FD2464F0AF00498D5C /* tank_camo_brush.png */,
 				816212FE2464F0B000498D5C /* tank_tread.png */,
+				810CEF8A246935EC00F81959 /* tank_tread_ambient_occlusion.png */,
 				816212FC2464F0AF00498D5C /* tank.png */,
+				810CEF88246934F400F81959 /* tank_ambient_occlusion.png */,
 				81737A2F2462469400AE510F /* tank.mtl */,
 				81737A2C2462469400AE510F /* tank.obj */,
 				817378712461B44300AE510F /* apple.mtl */,
 				817378722461B44300AE510F /* apple.obj */,
 				8199EF6D24590D6000FFEAA8 /* android.mtl */,
 				8199EF6E24590D6000FFEAA8 /* android.obj */,
+				810CEF862469342400F81959 /* android_ambient_occlusion.png */,
 				8199EF6C24590D6000FFEAA8 /* android.png */,
 				8158034E2426F2D700377909 /* texture01.jpg */,
 				8158034F2426F2D700377909 /* texture02.jpg */,
@@ -495,6 +504,7 @@
 			files = (
 				816212FF2464F0B000498D5C /* tank.png in Resources */,
 				816213002464F0B000498D5C /* tank_camo_brush.png in Resources */,
+				810CEF89246934F400F81959 /* tank_ambient_occlusion.png in Resources */,
 				81737A342462469400AE510F /* tank.mtl in Resources */,
 				815FFB9A240745A200B05529 /* LaunchScreen.storyboard in Resources */,
 				815FFB97240745A200B05529 /* Assets.xcassets in Resources */,
@@ -502,12 +512,14 @@
 				8199EF6F24590D6000FFEAA8 /* android.png in Resources */,
 				817378732461B44300AE510F /* apple.mtl in Resources */,
 				817378742461B44300AE510F /* apple.obj in Resources */,
+				810CEF8B246935EC00F81959 /* tank_tread_ambient_occlusion.png in Resources */,
 				815803502426F2D800377909 /* texture01.jpg in Resources */,
 				815803512426F2D800377909 /* texture02.jpg in Resources */,
 				8199EF7124590D6000FFEAA8 /* android.obj in Resources */,
 				816213012464F0B000498D5C /* tank_tread.png in Resources */,
 				815FFB95240745A000B05529 /* Main.storyboard in Resources */,
 				8199EF7024590D6000FFEAA8 /* android.mtl in Resources */,
+				810CEF872469342500F81959 /* android_ambient_occlusion.png in Resources */,
 				81737A312462469400AE510F /* tank.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
