@@ -58,6 +58,8 @@
 		81737A342462469400AE510F /* tank.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 81737A2F2462469400AE510F /* tank.mtl */; };
 		8175584D243734C200810163 /* TextureBehaviour8.m in Sources */ = {isa = PBXBuildFile; fileRef = 8175584C243734C200810163 /* TextureBehaviour8.m */; };
 		817558502437352000810163 /* TextureViewController8.m in Sources */ = {isa = PBXBuildFile; fileRef = 8175584E2437352000810163 /* TextureViewController8.m */; };
+		818AC9C7246CF3A400FC3FA9 /* android_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 818AC9C4246CF3A400FC3FA9 /* android_normal.png */; };
+		818AC9C8246CF3A400FC3FA9 /* tank_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 818AC9C5246CF3A400FC3FA9 /* tank_normal.png */; };
 		8199EF6B24590C4A00FFEAA8 /* ObjBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8199EF6924590C4A00FFEAA8 /* ObjBehaviour1.m */; };
 		8199EF6F24590D6000FFEAA8 /* android.png in Resources */ = {isa = PBXBuildFile; fileRef = 8199EF6C24590D6000FFEAA8 /* android.png */; };
 		8199EF7024590D6000FFEAA8 /* android.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 8199EF6D24590D6000FFEAA8 /* android.mtl */; };
@@ -175,6 +177,8 @@
 		8175584E2437352000810163 /* TextureViewController8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureViewController8.m; sourceTree = "<group>"; };
 		8175584F2437352000810163 /* TextureViewController8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureViewController8.h; sourceTree = "<group>"; };
 		818329B023F0EF1500356D30 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		818AC9C4246CF3A400FC3FA9 /* android_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = android_normal.png; sourceTree = "<group>"; };
+		818AC9C5246CF3A400FC3FA9 /* tank_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tank_normal.png; sourceTree = "<group>"; };
 		8199EF6924590C4A00FFEAA8 /* ObjBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjBehaviour1.m; sourceTree = "<group>"; };
 		8199EF6A24590C4A00FFEAA8 /* ObjBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjBehaviour1.h; sourceTree = "<group>"; };
 		8199EF6C24590D6000FFEAA8 /* android.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = android.png; sourceTree = "<group>"; };
@@ -267,6 +271,8 @@
 		8158034D2426F2D700377909 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				818AC9C4246CF3A400FC3FA9 /* android_normal.png */,
+				818AC9C5246CF3A400FC3FA9 /* tank_normal.png */,
 				816212FD2464F0AF00498D5C /* tank_camo_brush.png */,
 				816212FE2464F0B000498D5C /* tank_tread.png */,
 				810CEF8A246935EC00F81959 /* tank_tread_ambient_occlusion.png */,
@@ -509,8 +515,10 @@
 				815FFB9A240745A200B05529 /* LaunchScreen.storyboard in Resources */,
 				815FFB97240745A200B05529 /* Assets.xcassets in Resources */,
 				813783152447E8BA00D8CB0E /* texture03.png in Resources */,
+				818AC9C8246CF3A400FC3FA9 /* tank_normal.png in Resources */,
 				8199EF6F24590D6000FFEAA8 /* android.png in Resources */,
 				817378732461B44300AE510F /* apple.mtl in Resources */,
+				818AC9C7246CF3A400FC3FA9 /* android_normal.png in Resources */,
 				817378742461B44300AE510F /* apple.obj in Resources */,
 				810CEF8B246935EC00F81959 /* tank_tread_ambient_occlusion.png in Resources */,
 				815803502426F2D800377909 /* texture01.jpg in Resources */,
