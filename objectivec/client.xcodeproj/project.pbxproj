@@ -97,6 +97,8 @@
 		81D038CA2443F1C8002367AB /* BlendBehaviour2.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D038C92443F1C8002367AB /* BlendBehaviour2.m */; };
 		81D038CD2443F295002367AB /* BlendBehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D038CC2443F295002367AB /* BlendBehaviour.m */; };
 		81D038D02443F574002367AB /* BlendBehaviour3.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D038CF2443F574002367AB /* BlendBehaviour3.m */; };
+		81D89D572484C98800A56DBE /* TriangleBehaviour2.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D89D562484C98800A56DBE /* TriangleBehaviour2.m */; };
+		81D89D5A2484CACF00A56DBE /* TriangleViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D89D592484CACF00A56DBE /* TriangleViewController2.m */; };
 		F7172B7C1BF425A48FAC31BF /* Pods_iOSObjectiveCClinet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AE05A170E15ED2ECA07E0C /* Pods_iOSObjectiveCClinet.framework */; };
 /* End PBXBuildFile section */
 
@@ -254,6 +256,10 @@
 		81D038CC2443F295002367AB /* BlendBehaviour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlendBehaviour.m; sourceTree = "<group>"; };
 		81D038CE2443F574002367AB /* BlendBehaviour3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlendBehaviour3.h; sourceTree = "<group>"; };
 		81D038CF2443F574002367AB /* BlendBehaviour3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlendBehaviour3.m; sourceTree = "<group>"; };
+		81D89D552484C98800A56DBE /* TriangleBehaviour2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleBehaviour2.h; sourceTree = "<group>"; };
+		81D89D562484C98800A56DBE /* TriangleBehaviour2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleBehaviour2.m; sourceTree = "<group>"; };
+		81D89D582484CACF00A56DBE /* TriangleViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleViewController2.h; sourceTree = "<group>"; };
+		81D89D592484CACF00A56DBE /* TriangleViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleViewController2.m; sourceTree = "<group>"; };
 		A3AE05A170E15ED2ECA07E0C /* Pods_iOSObjectiveCClinet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSObjectiveCClinet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D4BDD5B8F7EC13BACC8DB9 /* Pods-iOSObjectiveCTestClinet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSObjectiveCTestClinet.debug.xcconfig"; path = "Target Support Files/Pods-iOSObjectiveCTestClinet/Pods-iOSObjectiveCTestClinet.debug.xcconfig"; sourceTree = "<group>"; };
 		BD239EE98EF062C7CE426B30 /* Pods-iOSObjectiveCClinet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSObjectiveCClinet.debug.xcconfig"; path = "Target Support Files/Pods-iOSObjectiveCClinet/Pods-iOSObjectiveCClinet.debug.xcconfig"; sourceTree = "<group>"; };
@@ -412,6 +418,8 @@
 				81AF3971241F04F700E2136B /* MaterialBehaviour1.m */,
 				81C6E65B2415C26A00DB88F2 /* RectangleBehaviour1.h */,
 				81C6E65C2415C26A00DB88F2 /* RectangleBehaviour1.m */,
+				81D89D552484C98800A56DBE /* TriangleBehaviour2.h */,
+				81D89D562484C98800A56DBE /* TriangleBehaviour2.m */,
 				815FFBAA2407468D00B05529 /* TriangleBehaviour1.h */,
 				815FFBA72407468D00B05529 /* TriangleBehaviour1.m */,
 				815FFBA92407468D00B05529 /* CubeBehaviour1.h */,
@@ -481,6 +489,8 @@
 				81AE59882410EB0100330B8F /* LightingViewController2.m */,
 				815FFD85240748BD00B05529 /* TriangleViewController1.h */,
 				815FFBE62407468D00B05529 /* TriangleViewController1.m */,
+				81D89D582484CACF00A56DBE /* TriangleViewController2.h */,
+				81D89D592484CACF00A56DBE /* TriangleViewController2.m */,
 				815FFC3C2407468D00B05529 /* CubeViewController1.h */,
 				815FFD86240748BE00B05529 /* CubeViewController1.m */,
 				814EB07E2418629600AC500C /* CircleViewController1.h */,
@@ -677,6 +687,7 @@
 				81CF7F0B242B215500D9F6A5 /* TextureBehaviour3.m in Sources */,
 				815FFB9D240745A200B05529 /* main.m in Sources */,
 				811A48AF24219A9200C2BE66 /* SphereBehaviour1.m in Sources */,
+				81D89D572484C98800A56DBE /* TriangleBehaviour2.m in Sources */,
 				81D038C42443EDF4002367AB /* BlendBehaviour1.m in Sources */,
 				8128A257247229BF00630772 /* TextureAnimatorBehaviour1.m in Sources */,
 				815FFD87240748BE00B05529 /* CubeViewController1.m in Sources */,
@@ -687,6 +698,7 @@
 				8119269A24349409004156D7 /* TextureViewController7.m in Sources */,
 				81416E0224736B310082A367 /* TextureAnimatorBehaviour2.m in Sources */,
 				81D038C72443F054002367AB /* BlendViewController1.m in Sources */,
+				81D89D5A2484CACF00A56DBE /* TriangleViewController2.m in Sources */,
 				81192697243493B1004156D7 /* TextureBehaviour7.m in Sources */,
 				815FFB8F240745A000B05529 /* AppDelegate.m in Sources */,
 				815E96C2243B1B9F009AD254 /* TextureViewController9.m in Sources */,
