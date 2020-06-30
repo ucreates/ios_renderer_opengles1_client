@@ -111,6 +111,8 @@
 		81D038D02443F574002367AB /* BlendBehaviour3.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D038CF2443F574002367AB /* BlendBehaviour3.m */; };
 		81D89D572484C98800A56DBE /* TriangleBehaviour2.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D89D562484C98800A56DBE /* TriangleBehaviour2.m */; };
 		81D89D5A2484CACF00A56DBE /* TriangleViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D89D592484CACF00A56DBE /* TriangleViewController2.m */; };
+		81F4421F24A1813C009C443B /* CircleBehaviour2.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F4421D24A1813C009C443B /* CircleBehaviour2.m */; };
+		81F4422224A18217009C443B /* CircleViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F4422124A18217009C443B /* CircleViewController2.m */; };
 		F7172B7C1BF425A48FAC31BF /* Pods_iOSObjectiveCClinet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AE05A170E15ED2ECA07E0C /* Pods_iOSObjectiveCClinet.framework */; };
 /* End PBXBuildFile section */
 
@@ -288,6 +290,10 @@
 		81D89D562484C98800A56DBE /* TriangleBehaviour2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleBehaviour2.m; sourceTree = "<group>"; };
 		81D89D582484CACF00A56DBE /* TriangleViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleViewController2.h; sourceTree = "<group>"; };
 		81D89D592484CACF00A56DBE /* TriangleViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleViewController2.m; sourceTree = "<group>"; };
+		81F4421D24A1813C009C443B /* CircleBehaviour2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleBehaviour2.m; sourceTree = "<group>"; };
+		81F4421E24A1813C009C443B /* CircleBehaviour2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleBehaviour2.h; sourceTree = "<group>"; };
+		81F4422024A18217009C443B /* CircleViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleViewController2.h; sourceTree = "<group>"; };
+		81F4422124A18217009C443B /* CircleViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleViewController2.m; sourceTree = "<group>"; };
 		A3AE05A170E15ED2ECA07E0C /* Pods_iOSObjectiveCClinet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSObjectiveCClinet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D4BDD5B8F7EC13BACC8DB9 /* Pods-iOSObjectiveCTestClinet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSObjectiveCTestClinet.debug.xcconfig"; path = "Target Support Files/Pods-iOSObjectiveCTestClinet/Pods-iOSObjectiveCTestClinet.debug.xcconfig"; sourceTree = "<group>"; };
 		BD239EE98EF062C7CE426B30 /* Pods-iOSObjectiveCClinet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSObjectiveCClinet.debug.xcconfig"; path = "Target Support Files/Pods-iOSObjectiveCClinet/Pods-iOSObjectiveCClinet.debug.xcconfig"; sourceTree = "<group>"; };
@@ -466,6 +472,8 @@
 				815FFBA62407468D00B05529 /* CubeBehaviour1.m */,
 				814EB07A2418613C00AC500C /* CircleBehaviour1.h */,
 				814EB07B2418613C00AC500C /* CircleBehaviour1.m */,
+				81F4421E24A1813C009C443B /* CircleBehaviour2.h */,
+				81F4421D24A1813C009C443B /* CircleBehaviour2.m */,
 				815803472426F0E700377909 /* TextureBehaviour1.h */,
 				815803482426F0F400377909 /* TextureBehaviour1.m */,
 			);
@@ -539,6 +547,8 @@
 				815FFD86240748BE00B05529 /* CubeViewController1.m */,
 				814EB07E2418629600AC500C /* CircleViewController1.h */,
 				814EB07D2418629500AC500C /* CircleViewController1.m */,
+				81F4422024A18217009C443B /* CircleViewController2.h */,
+				81F4422124A18217009C443B /* CircleViewController2.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -714,6 +724,7 @@
 				815FFD022407468D00B05529 /* TriangleViewController1.m in Sources */,
 				8199EF6B24590C4A00FFEAA8 /* ObjBehaviour1.m in Sources */,
 				811A48B62421A43400C2BE66 /* LightingViewController4.m in Sources */,
+				81F4422224A18217009C443B /* CircleViewController2.m in Sources */,
 				8158034C2426F1E700377909 /* TextureViewController1.m in Sources */,
 				81C6E6602415C2B200DB88F2 /* RectangleViewController1.m in Sources */,
 				819B185C24A02EA100BE4AA9 /* RectangleBehaviour2.m in Sources */,
@@ -763,6 +774,7 @@
 				81CF7F0E242B21DF00D9F6A5 /* TextureViewController3.m in Sources */,
 				815E96C5243B1E9F009AD254 /* TextureBehaviour10.m in Sources */,
 				815E96C8243B1EE7009AD254 /* TextureViewController10.m in Sources */,
+				81F4421F24A1813C009C443B /* CircleBehaviour2.m in Sources */,
 				813783182447E8E700D8CB0E /* TextureBehaviour11.m in Sources */,
 				81416E0524736DCB0082A367 /* TextureAnimatorViewController2.m in Sources */,
 				815E96BF243B1B43009AD254 /* TextureBehaviour9.m in Sources */,
