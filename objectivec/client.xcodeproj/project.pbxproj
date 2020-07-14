@@ -91,12 +91,14 @@
 		8199EF7024590D6000FFEAA8 /* android.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 8199EF6D24590D6000FFEAA8 /* android.mtl */; };
 		8199EF7124590D6000FFEAA8 /* android.obj in Resources */ = {isa = PBXBuildFile; fileRef = 8199EF6E24590D6000FFEAA8 /* android.obj */; };
 		8199EF7424590DAA00FFEAA8 /* ObjViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8199EF7324590DAA00FFEAA8 /* ObjViewController1.m */; };
+		819A78A124BDEA7D0059FC16 /* SphereViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 819A789F24BDEA7C0059FC16 /* SphereViewController2.m */; };
 		819B185C24A02EA100BE4AA9 /* RectangleBehaviour2.m in Sources */ = {isa = PBXBuildFile; fileRef = 819B185B24A02EA100BE4AA9 /* RectangleBehaviour2.m */; };
 		819B185F24A02F7200BE4AA9 /* RectangleViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 819B185E24A02F7200BE4AA9 /* RectangleViewController2.m */; };
 		81AE59892410EB0100330B8F /* LightingViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE59872410EB0100330B8F /* LightingViewController1.m */; };
 		81AE598A2410EB0100330B8F /* LightingViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE59882410EB0100330B8F /* LightingViewController2.m */; };
 		81AF3973241F04F700E2136B /* MaterialBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AF3971241F04F700E2136B /* MaterialBehaviour1.m */; };
 		81AF3976241F05E700E2136B /* LightingViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AF3974241F05E700E2136B /* LightingViewController3.m */; };
+		81B65D6E24A5DFB70075C0D1 /* SphereBehaviour2.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B65D6D24A5DFB60075C0D1 /* SphereBehaviour2.m */; };
 		81B76E20243EB79200ADD9A6 /* FogBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B76E1E243EB79100ADD9A6 /* FogBehaviour1.m */; };
 		81B76E23243EB83700ADD9A6 /* FogViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B76E21243EB83700ADD9A6 /* FogViewController1.m */; };
 		81BA82A82473934700D3AB23 /* animation.png in Resources */ = {isa = PBXBuildFile; fileRef = 81BA82A72473934700D3AB23 /* animation.png */; };
@@ -253,6 +255,8 @@
 		8199EF6E24590D6000FFEAA8 /* android.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = android.obj; sourceTree = "<group>"; };
 		8199EF7224590DAA00FFEAA8 /* ObjViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjViewController1.h; sourceTree = "<group>"; };
 		8199EF7324590DAA00FFEAA8 /* ObjViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjViewController1.m; sourceTree = "<group>"; };
+		819A789F24BDEA7C0059FC16 /* SphereViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereViewController2.m; sourceTree = "<group>"; };
+		819A78A024BDEA7C0059FC16 /* SphereViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereViewController2.h; sourceTree = "<group>"; };
 		819B185A24A02EA100BE4AA9 /* RectangleBehaviour2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleBehaviour2.h; sourceTree = "<group>"; };
 		819B185B24A02EA100BE4AA9 /* RectangleBehaviour2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleBehaviour2.m; sourceTree = "<group>"; };
 		819B185D24A02F7200BE4AA9 /* RectangleViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleViewController2.h; sourceTree = "<group>"; };
@@ -265,6 +269,8 @@
 		81AF3972241F04F700E2136B /* MaterialBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialBehaviour1.h; sourceTree = "<group>"; };
 		81AF3974241F05E700E2136B /* LightingViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightingViewController3.m; sourceTree = "<group>"; };
 		81AF3975241F05E700E2136B /* LightingViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightingViewController3.h; sourceTree = "<group>"; };
+		81B65D6C24A5DFB60075C0D1 /* SphereBehaviour2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereBehaviour2.h; sourceTree = "<group>"; };
+		81B65D6D24A5DFB60075C0D1 /* SphereBehaviour2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereBehaviour2.m; sourceTree = "<group>"; };
 		81B76E1E243EB79100ADD9A6 /* FogBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FogBehaviour1.m; sourceTree = "<group>"; };
 		81B76E1F243EB79200ADD9A6 /* FogBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FogBehaviour1.h; sourceTree = "<group>"; };
 		81B76E21243EB83700ADD9A6 /* FogViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FogViewController1.m; sourceTree = "<group>"; };
@@ -464,6 +470,8 @@
 				8109D018244D6C8000152145 /* ShaderBehaviour2.m */,
 				811A48AD24219A9200C2BE66 /* SphereBehaviour1.h */,
 				811A48AE24219A9200C2BE66 /* SphereBehaviour1.m */,
+				81B65D6C24A5DFB60075C0D1 /* SphereBehaviour2.h */,
+				81B65D6D24A5DFB60075C0D1 /* SphereBehaviour2.m */,
 				81AF3972241F04F700E2136B /* MaterialBehaviour1.h */,
 				81AF3971241F04F700E2136B /* MaterialBehaviour1.m */,
 				81C6E65B2415C26A00DB88F2 /* RectangleBehaviour1.h */,
@@ -537,6 +545,8 @@
 				811A48B52421A43400C2BE66 /* LightingViewController4.m */,
 				811A48AB24219A2300C2BE66 /* SphereViewController1.h */,
 				811A48AA24219A2300C2BE66 /* SphereViewController1.m */,
+				819A78A024BDEA7C0059FC16 /* SphereViewController2.h */,
+				819A789F24BDEA7C0059FC16 /* SphereViewController2.m */,
 				81AF3975241F05E700E2136B /* LightingViewController3.h */,
 				81AF3974241F05E700E2136B /* LightingViewController3.m */,
 				81C6E65F2415C2B200DB88F2 /* RectangleViewController1.h */,
@@ -759,6 +769,7 @@
 				81655C0624504985006B370B /* WipeViewController2.m in Sources */,
 				8109D01C244D71BC00152145 /* ShaderViewController1.m in Sources */,
 				811F5BDF2430DAC5001C4485 /* TextureViewController5.m in Sources */,
+				819A78A124BDEA7D0059FC16 /* SphereViewController2.m in Sources */,
 				8138A12F249067C1000C2758 /* TextureBehaviour12.m in Sources */,
 				815803492426F0F400377909 /* TextureBehaviour1.m in Sources */,
 				81B76E23243EB83700ADD9A6 /* FogViewController1.m in Sources */,
@@ -787,6 +798,7 @@
 				815E96C5243B1E9F009AD254 /* TextureBehaviour10.m in Sources */,
 				815E96C8243B1EE7009AD254 /* TextureViewController10.m in Sources */,
 				81F4421F24A1813C009C443B /* CircleBehaviour2.m in Sources */,
+				81B65D6E24A5DFB70075C0D1 /* SphereBehaviour2.m in Sources */,
 				813783182447E8E700D8CB0E /* TextureBehaviour11.m in Sources */,
 				81416E0524736DCB0082A367 /* TextureAnimatorViewController2.m in Sources */,
 				815E96BF243B1B43009AD254 /* TextureBehaviour9.m in Sources */,
