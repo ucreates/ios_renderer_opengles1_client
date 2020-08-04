@@ -115,6 +115,8 @@
 		81D038CA2443F1C8002367AB /* BlendBehaviour2.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D038C92443F1C8002367AB /* BlendBehaviour2.m */; };
 		81D038CD2443F295002367AB /* BlendBehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D038CC2443F295002367AB /* BlendBehaviour.m */; };
 		81D038D02443F574002367AB /* BlendBehaviour3.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D038CF2443F574002367AB /* BlendBehaviour3.m */; };
+		81D5366524D8FC2F0079A979 /* TextureBehaviour15.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D5366324D8FC2F0079A979 /* TextureBehaviour15.m */; };
+		81D5366824D8FCA50079A979 /* TextureViewController15.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D5366624D8FCA50079A979 /* TextureViewController15.m */; };
 		81D89D572484C98800A56DBE /* TriangleBehaviour2.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D89D562484C98800A56DBE /* TriangleBehaviour2.m */; };
 		81D89D5A2484CACF00A56DBE /* TriangleViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D89D592484CACF00A56DBE /* TriangleViewController2.m */; };
 		81D92EE024CFA6040009E74F /* TextureBehaviour14.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D92EDE24CFA6040009E74F /* TextureBehaviour14.m */; };
@@ -306,6 +308,10 @@
 		81D038CC2443F295002367AB /* BlendBehaviour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlendBehaviour.m; sourceTree = "<group>"; };
 		81D038CE2443F574002367AB /* BlendBehaviour3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlendBehaviour3.h; sourceTree = "<group>"; };
 		81D038CF2443F574002367AB /* BlendBehaviour3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlendBehaviour3.m; sourceTree = "<group>"; };
+		81D5366324D8FC2F0079A979 /* TextureBehaviour15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureBehaviour15.m; sourceTree = "<group>"; };
+		81D5366424D8FC2F0079A979 /* TextureBehaviour15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureBehaviour15.h; sourceTree = "<group>"; };
+		81D5366624D8FCA50079A979 /* TextureViewController15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureViewController15.m; sourceTree = "<group>"; };
+		81D5366724D8FCA50079A979 /* TextureViewController15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureViewController15.h; sourceTree = "<group>"; };
 		81D89D552484C98800A56DBE /* TriangleBehaviour2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleBehaviour2.h; sourceTree = "<group>"; };
 		81D89D562484C98800A56DBE /* TriangleBehaviour2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleBehaviour2.m; sourceTree = "<group>"; };
 		81D89D582484CACF00A56DBE /* TriangleViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleViewController2.h; sourceTree = "<group>"; };
@@ -454,6 +460,8 @@
 				81D038C32443EDF4002367AB /* BlendBehaviour1.m */,
 				81B76E1F243EB79200ADD9A6 /* FogBehaviour1.h */,
 				81B76E1E243EB79100ADD9A6 /* FogBehaviour1.m */,
+				81D5366424D8FC2F0079A979 /* TextureBehaviour15.h */,
+				81D5366324D8FC2F0079A979 /* TextureBehaviour15.m */,
 				81D92EDF24CFA6040009E74F /* TextureBehaviour14.h */,
 				81D92EDE24CFA6040009E74F /* TextureBehaviour14.m */,
 				81D031A824C66387001DF927 /* TextureBehaviour13.h */,
@@ -531,6 +539,8 @@
 				8128A25824722B0100630772 /* TextureAnimatorViewController1.m */,
 				81416E0424736DCB0082A367 /* TextureAnimatorViewController2.h */,
 				81416E0324736DCB0082A367 /* TextureAnimatorViewController2.m */,
+				81D5366724D8FCA50079A979 /* TextureViewController15.h */,
+				81D5366624D8FCA50079A979 /* TextureViewController15.m */,
 				81D92EE124CFA65A0009E74F /* TextureViewController14.h */,
 				81D92EE224CFA65B0009E74F /* TextureViewController14.m */,
 				81D031AC24C663EB001DF927 /* TextureViewController13.h */,
@@ -816,6 +826,7 @@
 				815E96C2243B1B9F009AD254 /* TextureViewController9.m in Sources */,
 				8137831B2447E94B00D8CB0E /* TextureViewController11.m in Sources */,
 				8175584D243734C200810163 /* TextureBehaviour8.m in Sources */,
+				81D5366524D8FC2F0079A979 /* TextureBehaviour15.m in Sources */,
 				81D92EE024CFA6040009E74F /* TextureBehaviour14.m in Sources */,
 				81D038D02443F574002367AB /* BlendBehaviour3.m in Sources */,
 				81CF7F0E242B21DF00D9F6A5 /* TextureViewController3.m in Sources */,
@@ -830,6 +841,7 @@
 				8199EF7424590DAA00FFEAA8 /* ObjViewController1.m in Sources */,
 				816662FD24500A9000C5993C /* WipeViewController1.m in Sources */,
 				81AF3976241F05E700E2136B /* LightingViewController3.m in Sources */,
+				81D5366824D8FCA50079A979 /* TextureViewController15.m in Sources */,
 				8162E78324234581000E23C7 /* MaterialBehaviour2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
