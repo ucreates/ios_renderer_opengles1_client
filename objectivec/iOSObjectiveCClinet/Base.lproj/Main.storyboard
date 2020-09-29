@@ -11,7 +11,7 @@
         <!--GLKit View Controller-->
         <scene sceneID="DPx-OH-3bX">
             <objects>
-                <glkViewController preferredFramesPerSecond="30" id="6Y7-3x-Tlu" customClass="TriangleViewController1" sceneMemberID="viewController">
+                <glkViewController preferredFramesPerSecond="30" id="6Y7-3x-Tlu" customClass="TriangleViewController3" sceneMemberID="viewController">
                     <glkView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" enableSetNeedsDisplay="NO" id="Jkn-Hv-ahv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
