@@ -86,6 +86,8 @@
 		81737A342462469400AE510F /* tank.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 81737A2F2462469400AE510F /* tank.mtl */; };
 		8175584D243734C200810163 /* TextureBehaviour8.m in Sources */ = {isa = PBXBuildFile; fileRef = 8175584C243734C200810163 /* TextureBehaviour8.m */; };
 		817558502437352000810163 /* TextureViewController8.m in Sources */ = {isa = PBXBuildFile; fileRef = 8175584E2437352000810163 /* TextureViewController8.m */; };
+		817611422547AAC200974456 /* TextureViewController22.m in Sources */ = {isa = PBXBuildFile; fileRef = 817611412547AAC200974456 /* TextureViewController22.m */; };
+		817611452547AACB00974456 /* TextureBehaviour22.m in Sources */ = {isa = PBXBuildFile; fileRef = 817611442547AACB00974456 /* TextureBehaviour22.m */; };
 		818AC9C7246CF3A400FC3FA9 /* android_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 818AC9C4246CF3A400FC3FA9 /* android_normal.png */; };
 		818AC9C8246CF3A400FC3FA9 /* tank_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 818AC9C5246CF3A400FC3FA9 /* tank_normal.png */; };
 		818C676B24EA010D00886086 /* TextureBehaviour17.m in Sources */ = {isa = PBXBuildFile; fileRef = 818C676924EA010D00886086 /* TextureBehaviour17.m */; };
@@ -277,6 +279,10 @@
 		8175584C243734C200810163 /* TextureBehaviour8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureBehaviour8.m; sourceTree = "<group>"; };
 		8175584E2437352000810163 /* TextureViewController8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureViewController8.m; sourceTree = "<group>"; };
 		8175584F2437352000810163 /* TextureViewController8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureViewController8.h; sourceTree = "<group>"; };
+		817611402547AAC200974456 /* TextureViewController22.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureViewController22.h; sourceTree = "<group>"; };
+		817611412547AAC200974456 /* TextureViewController22.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureViewController22.m; sourceTree = "<group>"; };
+		817611432547AACB00974456 /* TextureBehaviour22.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureBehaviour22.h; sourceTree = "<group>"; };
+		817611442547AACB00974456 /* TextureBehaviour22.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureBehaviour22.m; sourceTree = "<group>"; };
 		818329B023F0EF1500356D30 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		818AC9C4246CF3A400FC3FA9 /* android_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = android_normal.png; sourceTree = "<group>"; };
 		818AC9C5246CF3A400FC3FA9 /* tank_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tank_normal.png; sourceTree = "<group>"; };
@@ -510,6 +516,8 @@
 		815FFBA52407468D00B05529 /* Behaviour */ = {
 			isa = PBXGroup;
 			children = (
+				817611432547AACB00974456 /* TextureBehaviour22.h */,
+				817611442547AACB00974456 /* TextureBehaviour22.m */,
 				81416E0024736B300082A367 /* TextureAnimatorBehaviour2.h */,
 				81416E0124736B300082A367 /* TextureAnimatorBehaviour2.m */,
 				8128A256247229BF00630772 /* TextureAnimatorBehaviour1.h */,
@@ -611,6 +619,8 @@
 		815FFBAC2407468D00B05529 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				817611402547AAC200974456 /* TextureViewController22.h */,
+				817611412547AAC200974456 /* TextureViewController22.m */,
 				8199EF7224590DAA00FFEAA8 /* ObjViewController1.h */,
 				8199EF7324590DAA00FFEAA8 /* ObjViewController1.m */,
 				81655C0424504985006B370B /* WipeViewController2.h */,
@@ -878,6 +888,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81D038CA2443F1C8002367AB /* BlendBehaviour2.m in Sources */,
+				817611452547AACB00974456 /* TextureBehaviour22.m in Sources */,
 				8167B04924AAC40700FFB4A7 /* TriangleViewController3.m in Sources */,
 				81CF7F14242B23E000D9F6A5 /* TextureViewController4.m in Sources */,
 				81CF7F11242B239900D9F6A5 /* TextureBehaviour4.m in Sources */,
@@ -888,6 +899,7 @@
 				81D031AA24C66388001DF927 /* TextureBehaviour13.m in Sources */,
 				81D031AD24C663EB001DF927 /* TextureViewController13.m in Sources */,
 				81F4422224A18217009C443B /* CircleViewController2.m in Sources */,
+				817611422547AAC200974456 /* TextureViewController22.m in Sources */,
 				8158034C2426F1E700377909 /* TextureViewController1.m in Sources */,
 				81C6E6602415C2B200DB88F2 /* RectangleViewController1.m in Sources */,
 				819B185C24A02EA100BE4AA9 /* RectangleBehaviour2.m in Sources */,
