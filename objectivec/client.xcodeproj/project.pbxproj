@@ -78,6 +78,8 @@
 		816662FD24500A9000C5993C /* WipeViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 816662FC24500A9000C5993C /* WipeViewController1.m */; };
 		8167B04624AAC33500FFB4A7 /* TriangleBehaviour3.m in Sources */ = {isa = PBXBuildFile; fileRef = 8167B04424AAC33500FFB4A7 /* TriangleBehaviour3.m */; };
 		8167B04924AAC40700FFB4A7 /* TriangleViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 8167B04824AAC40700FFB4A7 /* TriangleViewController3.m */; };
+		81690558255AAFF100C6BFBF /* RectangleViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 81690557255AAFF100C6BFBF /* RectangleViewController4.m */; };
+		8169055B255AB00300C6BFBF /* RectangleBehaviour4.m in Sources */ = {isa = PBXBuildFile; fileRef = 8169055A255AB00200C6BFBF /* RectangleBehaviour4.m */; };
 		816BC89D2429E89100B0D627 /* TextureBehaviour2.m in Sources */ = {isa = PBXBuildFile; fileRef = 816BC89B2429E89100B0D627 /* TextureBehaviour2.m */; };
 		816BC8A02429E8D400B0D627 /* TextureViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 816BC89F2429E8D400B0D627 /* TextureViewController2.m */; };
 		817378732461B44300AE510F /* apple.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 817378712461B44300AE510F /* apple.mtl */; };
@@ -269,6 +271,10 @@
 		8167B04524AAC33500FFB4A7 /* TriangleBehaviour3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleBehaviour3.h; sourceTree = "<group>"; };
 		8167B04724AAC40700FFB4A7 /* TriangleViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleViewController3.h; sourceTree = "<group>"; };
 		8167B04824AAC40700FFB4A7 /* TriangleViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleViewController3.m; sourceTree = "<group>"; };
+		81690556255AAFF000C6BFBF /* RectangleViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleViewController4.h; sourceTree = "<group>"; };
+		81690557255AAFF100C6BFBF /* RectangleViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleViewController4.m; sourceTree = "<group>"; };
+		81690559255AB00200C6BFBF /* RectangleBehaviour4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleBehaviour4.h; sourceTree = "<group>"; };
+		8169055A255AB00200C6BFBF /* RectangleBehaviour4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleBehaviour4.m; sourceTree = "<group>"; };
 		816BC89B2429E89100B0D627 /* TextureBehaviour2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureBehaviour2.m; sourceTree = "<group>"; };
 		816BC89C2429E89100B0D627 /* TextureBehaviour2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureBehaviour2.h; sourceTree = "<group>"; };
 		816BC89E2429E8D400B0D627 /* TextureViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureViewController2.h; sourceTree = "<group>"; };
@@ -598,6 +604,8 @@
 				819B185B24A02EA100BE4AA9 /* RectangleBehaviour2.m */,
 				81A689F724ECB0F7009F8863 /* RectangleBehaviour3.h */,
 				81A689F624ECB0F7009F8863 /* RectangleBehaviour3.m */,
+				81690559255AB00200C6BFBF /* RectangleBehaviour4.h */,
+				8169055A255AB00200C6BFBF /* RectangleBehaviour4.m */,
 				81B675CE2551AF05007B589E /* TriangleBehaviour4.h */,
 				81B675CD2551AF05007B589E /* TriangleBehaviour4.m */,
 				8167B04524AAC33500FFB4A7 /* TriangleBehaviour3.h */,
@@ -705,6 +713,8 @@
 				819B185E24A02F7200BE4AA9 /* RectangleViewController2.m */,
 				81A689FA24ECB1E6009F8863 /* RectangleViewController3.h */,
 				81A689F924ECB1E6009F8863 /* RectangleViewController3.m */,
+				81690556255AAFF000C6BFBF /* RectangleViewController4.h */,
+				81690557255AAFF100C6BFBF /* RectangleViewController4.m */,
 				81AE59852410EB0100330B8F /* LightingViewController1.h */,
 				81AE59872410EB0100330B8F /* LightingViewController1.m */,
 				81AE59862410EB0100330B8F /* LightingViewController2.h */,
@@ -899,6 +909,7 @@
 			files = (
 				81D038CA2443F1C8002367AB /* BlendBehaviour2.m in Sources */,
 				817611452547AACB00974456 /* TextureBehaviour22.m in Sources */,
+				81690558255AAFF100C6BFBF /* RectangleViewController4.m in Sources */,
 				8167B04924AAC40700FFB4A7 /* TriangleViewController3.m in Sources */,
 				81CF7F14242B23E000D9F6A5 /* TextureViewController4.m in Sources */,
 				81CF7F11242B239900D9F6A5 /* TextureBehaviour4.m in Sources */,
@@ -934,6 +945,7 @@
 				817558502437352000810163 /* TextureViewController8.m in Sources */,
 				8135DC9E24A439A300A4C72D /* CubeViewController2.m in Sources */,
 				8135DC9B24A438D600A4C72D /* CubeBehaviour2.m in Sources */,
+				8169055B255AB00300C6BFBF /* RectangleBehaviour4.m in Sources */,
 				8109D019244D6C8000152145 /* ShaderBehaviour2.m in Sources */,
 				814EB07C2418613C00AC500C /* CircleBehaviour1.m in Sources */,
 				8128A25A24722B0200630772 /* TextureAnimatorViewController1.m in Sources */,
