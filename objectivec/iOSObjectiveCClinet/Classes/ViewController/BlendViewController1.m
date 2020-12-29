@@ -30,7 +30,7 @@
     self->renderer = [[GLES1Renderer alloc] init];
     [self->renderer create];
     [self->renderer.camera setClearColor:GLESColor.black];
-    [self->renderer.camera setClippingPlane:-1.0f farPlane:1.0f];
+    [self->renderer.camera setClippingPlane:-1.0f farPlane:1.0f dimension:kDimension2D];
     self->behaviours = [[NSMutableArray<BlendBehaviour*> alloc] init];
     BlendBehaviour1* behaviour1 = [[BlendBehaviour1 alloc] init];
     BlendBehaviour2* behaviour2 = [[BlendBehaviour2 alloc] init];
@@ -76,12 +76,13 @@
       return (NSComparisonResult)NSOrderedSame;
     };
     self->behaviours = [[self->behaviours sortedArrayUsingComparator:comparecbk] copy];
-    [renderer transform:kDimension2D];
+    [self->renderer clear];
+    [self->renderer transform:kDimension2D];
     for (BlendBehaviour* behaviour in self->behaviours) {
         [behaviour onUpdate:self.timeSinceLastUpdate];
-        [renderer render:behaviour.asset];
+        [self->renderer render:behaviour.asset];
     }
-    [renderer present];
+    [self->renderer present];
     return;
 }
 @end

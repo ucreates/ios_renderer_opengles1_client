@@ -28,7 +28,7 @@
     self->renderer = [[GLES1Renderer alloc] init];
     [self->renderer create];
     [self->renderer.camera setClearColor:GLESColor.white];
-    [self->renderer.camera setClippingPlane:-1.0f farPlane:1.0f];
+    [self->renderer.camera setClippingPlane:-1.0f farPlane:1.0f dimension:kDimension2D];
     self->behaviours = [[NSMutableArray<TextureAnimatorBehaviour2*> alloc] init];
     TextureAnimatorBehaviour2* behaviour1 = [[TextureAnimatorBehaviour2 alloc] init];
     [self->behaviours addObject:behaviour1];
@@ -59,14 +59,15 @@
     [super didReceiveMemoryWarning];
 }
 - (void)glkViewControllerUpdate:(nonnull GLKViewController*)controller {
-    [renderer transform:kDimension2D];
+    [self->renderer clear];
+    [self->renderer transform:kDimension2D];
     for (TextureAnimatorBehaviour2* behaviour in self->behaviours) {
         [behaviour onUpdate:self.timeSinceLastUpdate];
         TextureAtlasAnimatorAsset* asset = (TextureAtlasAnimatorAsset*)behaviour.asset;
         BaseAsset* currentFrame = [asset getCurrentFrame];
-        [renderer render:currentFrame];
+        [self->renderer render:currentFrame];
     }
-    [renderer present];
+    [self->renderer present];
     return;
 }
 @end

@@ -28,7 +28,7 @@
     self->renderer = [[GLES1Renderer alloc] init];
     [self->renderer create];
     [self->renderer.camera setClearColor:GLESColor.black];
-    [self->renderer.camera setClippingPlane:-1.0f farPlane:1.0f];
+    [self->renderer.camera setClippingPlane:-1.0f farPlane:1.0f dimension:kDimension2D];
     self->behaviours = [[NSMutableArray<RectangleBehaviour3*> alloc] init];
     for (int i = 0; i < 1; i++) {
         RectangleBehaviour3* behaviour = [[RectangleBehaviour3 alloc] init];
@@ -61,12 +61,13 @@
     [super didReceiveMemoryWarning];
 }
 - (void)glkViewControllerUpdate:(nonnull GLKViewController*)controller {
-    [renderer transform:kDimension2D];
+    [self->renderer clear];
+    [self->renderer transform:kDimension2D];
     for (RectangleBehaviour3* behaviour in self->behaviours) {
         [behaviour onUpdate:self.timeSinceLastUpdate];
-        [renderer render:behaviour.asset];
+        [self->renderer render:behaviour.asset];
     }
-    [renderer present];
+    [self->renderer present];
     return;
 }
 @end

@@ -29,7 +29,7 @@
     self->renderer = [[GLES1Renderer alloc] init];
     [self->renderer create];
     [self->renderer.camera setFov:60.0f];
-    [self->renderer.camera setClippingPlane:0.1f farPlane:100.0f];
+    [self->renderer.camera setClippingPlane:0.1f farPlane:100.0f dimension:kDimension3D];
     [self->renderer.camera setLookAt:GLKVector3Make(0.0f, 0.0f, -5.0f) center:GLKVector3Make(0.0f, 0.0f, 0.0f) up:GLKVector3Make(0.0f, 1.0f, 0.0f)];
     self->behaviours = [[NSMutableArray<TextureBehaviour12*> alloc] init];
     for (int i = 0; i < 1; i++) {
@@ -63,12 +63,13 @@
     [super didReceiveMemoryWarning];
 }
 - (void)glkViewControllerUpdate:(nonnull GLKViewController*)controller {
-    [renderer transform:kDimension3D];
+    [self->renderer clear];
+    [self->renderer transform:kDimension3D];
     for (TextureBehaviour12* behaviour in self->behaviours) {
         [behaviour onUpdate:self.timeSinceLastUpdate];
-        [renderer render:behaviour.asset];
+        [self->renderer render:behaviour.asset];
     }
-    [renderer present];
+    [self->renderer present];
     return;
 }
 @end

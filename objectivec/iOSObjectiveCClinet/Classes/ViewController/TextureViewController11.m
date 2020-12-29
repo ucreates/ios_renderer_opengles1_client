@@ -28,7 +28,7 @@
     self->renderer = [[GLES1Renderer alloc] init];
     [self->renderer create];
     [self->renderer.camera setClearColor:GLESColor.white];
-    [self->renderer.camera setClippingPlane:-1.0f farPlane:1.0f];
+    [self->renderer.camera setClippingPlane:-1.0f farPlane:1.0f dimension:kDimension2D];
     self->behaviours = [[NSMutableArray<TextureBehaviour11*> alloc] init];
     TextureBehaviour11* behaviour1 = [[TextureBehaviour11 alloc] init:0];
     TextureBehaviour11* behaviour2 = [[TextureBehaviour11 alloc] init:1];
@@ -61,12 +61,13 @@
     [super didReceiveMemoryWarning];
 }
 - (void)glkViewControllerUpdate:(nonnull GLKViewController*)controller {
-    [renderer transform:kDimension2D];
+    [self->renderer clear];
+    [self->renderer transform:kDimension2D];
     for (TextureBehaviour11* behaviour in self->behaviours) {
         [behaviour onUpdate:self.timeSinceLastUpdate];
-        [renderer render:behaviour.asset];
+        [self->renderer render:behaviour.asset];
     }
-    [renderer present];
+    [self->renderer present];
     return;
 }
 @end
