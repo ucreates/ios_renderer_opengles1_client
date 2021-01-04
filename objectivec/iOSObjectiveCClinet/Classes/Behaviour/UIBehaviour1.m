@@ -36,7 +36,7 @@
 }
 - (void)onUpdate:(NSTimeInterval)delta {
     [self->asset.transform setPosition:0.0f y:0.1f z:0.0f];
-    [self->asset.transform setScale:0.1f y:0.1f z:1.0f];
+    [self->asset.transform setScale:1.0f y:1.0f z:1.0f];
     [self->asset.transform setRotation:0.0f y:0.0f z:0.0f];
     return;
 }

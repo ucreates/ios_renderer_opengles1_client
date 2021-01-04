@@ -93,6 +93,7 @@
 		8167B04924AAC40700FFB4A7 /* TriangleViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 8167B04824AAC40700FFB4A7 /* TriangleViewController3.m */; };
 		81690558255AAFF100C6BFBF /* RectangleViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 81690557255AAFF100C6BFBF /* RectangleViewController4.m */; };
 		8169055B255AB00300C6BFBF /* RectangleBehaviour4.m in Sources */ = {isa = PBXBuildFile; fileRef = 8169055A255AB00200C6BFBF /* RectangleBehaviour4.m */; };
+		816B9DAA259FF8D000539C96 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 816B9DA9259FF8D000539C96 /* bg.jpg */; };
 		816BC89D2429E89100B0D627 /* TextureBehaviour2.m in Sources */ = {isa = PBXBuildFile; fileRef = 816BC89B2429E89100B0D627 /* TextureBehaviour2.m */; };
 		816BC8A02429E8D400B0D627 /* TextureViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 816BC89F2429E8D400B0D627 /* TextureViewController2.m */; };
 		816E199F257FCDFA005D049E /* TextureBehaviour23.m in Sources */ = {isa = PBXBuildFile; fileRef = 816E199E257FCDFA005D049E /* TextureBehaviour23.m */; };
@@ -320,6 +321,7 @@
 		81690557255AAFF100C6BFBF /* RectangleViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleViewController4.m; sourceTree = "<group>"; };
 		81690559255AB00200C6BFBF /* RectangleBehaviour4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleBehaviour4.h; sourceTree = "<group>"; };
 		8169055A255AB00200C6BFBF /* RectangleBehaviour4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleBehaviour4.m; sourceTree = "<group>"; };
+		816B9DA9259FF8D000539C96 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		816BC89B2429E89100B0D627 /* TextureBehaviour2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureBehaviour2.m; sourceTree = "<group>"; };
 		816BC89C2429E89100B0D627 /* TextureBehaviour2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureBehaviour2.h; sourceTree = "<group>"; };
 		816BC89E2429E8D400B0D627 /* TextureViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureViewController2.h; sourceTree = "<group>"; };
@@ -553,6 +555,7 @@
 				8158034E2426F2D700377909 /* texture01.jpg */,
 				8158034F2426F2D700377909 /* texture02.jpg */,
 				813783142447E8BA00D8CB0E /* texture03.png */,
+				816B9DA9259FF8D000539C96 /* bg.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -912,6 +915,7 @@
 			files = (
 				8128A27C2472318400630772 /* number04.png in Resources */,
 				816212FF2464F0B000498D5C /* tank.png in Resources */,
+				816B9DAA259FF8D000539C96 /* bg.jpg in Resources */,
 				816213002464F0B000498D5C /* tank_camo_brush.png in Resources */,
 				810CEF89246934F400F81959 /* tank_ambient_occlusion.png in Resources */,
 				8138A13A2490749D000C2758 /* mipmap02.jpg in Resources */,

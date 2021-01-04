@@ -15,7 +15,7 @@
 - (id)init {
     self = [super init];
     NSBundle* bundle = [NSBundle mainBundle];
-    NSString* path = [bundle pathForResource:@"texture01" ofType:@"jpg"];
+    NSString* path = [bundle pathForResource:@"bg" ofType:@"jpg"];
     self->asset = [[RectangleAsset1 alloc] init:1.0f height:1.0f color:GLESColor.white];
     [self->asset create:path textureUnit:GL_TEXTURE10];
     return self;
@@ -25,7 +25,7 @@
 }
 - (void)onUpdate:(NSTimeInterval)delta {
     [self->asset.transform setPosition:0.0f y:0.0f z:0.0f];
-    [self->asset.transform setScale:2.0f y:2.0f z:2.0f];
+    [self->asset.transform setScale:1.0f y:1.0f z:1.0f];
     [self->asset.transform setRotation:0.0f y:0.0f z:0.0f];
     return;
 }

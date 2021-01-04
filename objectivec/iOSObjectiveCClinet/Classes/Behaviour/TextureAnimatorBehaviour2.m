@@ -61,7 +61,7 @@
     GLfloat x = cosf(self.timeLine.currentFrame) * -0.25f;
     GLfloat y = sinf(self.timeLine.currentFrame) * 0.25f;
     [self->asset.transform setPosition:x y:y z:0.0f];
-    [self->asset.transform setScale:1.0f y:1.0f z:1.0f];
+    [self->asset.transform setScale:0.1f y:0.1f z:1.0f];
     [self->asset.transform setRotation:0.0f y:0.0f z:0.0f];
     [self.timeLine next:delta];
     return;
