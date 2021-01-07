@@ -16,7 +16,7 @@
 @synthesize rotate;
 - (id)init {
     self = [super init];
-    self->asset = [[SphereAsset1 alloc] init:1.0f divideCount:30 color:GLESColor.white];
+    self->asset = [[GLES1SphereAsset1 alloc] init:1.0f divideCount:30 color:GLES1Color.white];
     [self->asset create];
     return self;
 }

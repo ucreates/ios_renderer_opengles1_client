@@ -13,7 +13,7 @@
 #import "iOSObjectiveCGLES1Renderer.h"
 @interface TriangleBehaviour2 : BaseBehaviour
 @property FiniteStateMachine<TriangleBehaviour2*>* stateMachine;
-@property BaseAsset* asset;
+@property GLES1BaseAsset* asset;
 - (id)init;
 - (void)onCreate:(Parameter*)parameter;
 - (void)onUpdate:(NSTimeInterval)delta;

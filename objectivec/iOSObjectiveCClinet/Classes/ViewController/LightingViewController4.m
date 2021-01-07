@@ -27,8 +27,8 @@
     self.preferredFramesPerSecond = 60;
     GLES1Light* light = [[GLES1Light alloc] init:GL_LIGHT0];
     [light setPosition:0.0 y:0.0 z:-5.0];
-    [light setAmbient:[[GLESColor alloc] init:0.0f g:0.0f b:0.0f a:1.0f]];
-    [light setDiffuse:[[GLESColor alloc] init:1.0f g:1.0f b:1.0f a:1.0f]];
+    [light setAmbient:[[GLES1Color alloc] init:0.0f g:0.0f b:0.0f a:1.0f]];
+    [light setDiffuse:[[GLES1Color alloc] init:1.0f g:1.0f b:1.0f a:1.0f]];
     self->renderer = [[GLES1Renderer alloc] init];
     [self->renderer create];
     [self->renderer.camera setFov:60.0f];

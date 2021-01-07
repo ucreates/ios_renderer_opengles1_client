@@ -18,7 +18,7 @@
     self = [super init];
     NSBundle* bundle = [NSBundle mainBundle];
     NSString* path = [bundle pathForResource:@"texture02" ofType:@"jpg"];
-    self->asset = [[SphereAsset1 alloc] init:1.0f divideCount:30 color:GLESColor.white];
+    self->asset = [[GLES1SphereAsset1 alloc] init:1.0f divideCount:30 color:GLES1Color.white];
     [self->asset create:path];
     return self;
 }

@@ -27,7 +27,7 @@
     self.preferredFramesPerSecond = 60;
     self->renderer = [[GLES1Renderer alloc] init];
     [self->renderer create];
-    [self->renderer.camera setClearColor:GLESColor.white];
+    [self->renderer.camera setClearColor:GLES1Color.white];
     [self->renderer.camera setClippingPlane:-1.0f farPlane:1.0f dimension:kDimension2D];
     self->behaviours = [[NSMutableArray<TextureAnimatorBehaviour2*> alloc] init];
     TextureAnimatorBehaviour2* behaviour1 = [[TextureAnimatorBehaviour2 alloc] init];
@@ -63,8 +63,8 @@
     [self->renderer transform:kDimension2D];
     for (TextureAnimatorBehaviour2* behaviour in self->behaviours) {
         [behaviour onUpdate:self.timeSinceLastUpdate];
-        TextureAtlasAnimatorAsset* asset = (TextureAtlasAnimatorAsset*)behaviour.asset;
-        BaseAsset* currentFrame = [asset getCurrentFrame];
+        GLES1TextureAtlasAnimatorAsset* asset = (GLES1TextureAtlasAnimatorAsset*)behaviour.asset;
+        GLES1BaseAsset* currentFrame = [asset getCurrentFrame];
         [self->renderer render:currentFrame];
     }
     [self->renderer present];

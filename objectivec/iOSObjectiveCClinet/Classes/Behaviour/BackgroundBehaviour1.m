@@ -16,7 +16,7 @@
     self = [super init];
     NSBundle* bundle = [NSBundle mainBundle];
     NSString* path = [bundle pathForResource:@"bg" ofType:@"jpg"];
-    self->asset = [[RectangleAsset1 alloc] init:1.0f height:1.0f color:GLESColor.white];
+    self->asset = [[GLES1RectangleAsset1 alloc] init:1.0f height:1.0f color:GLES1Color.white];
     [self->asset create:path textureUnit:GL_TEXTURE10];
     return self;
 }

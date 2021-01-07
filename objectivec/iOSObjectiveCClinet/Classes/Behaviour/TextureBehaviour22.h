@@ -13,7 +13,7 @@
 #import "iOSObjectiveCGLES1Renderer.h"
 @interface TextureBehaviour22 : BaseBehaviour
 @property FiniteStateMachine<TextureBehaviour22*>* stateMachine;
-@property BaseAsset* asset;
+@property GLES1BaseAsset* asset;
 - (id)init;
 - (void)onCreate:(Parameter*)parameter;
 - (void)onUpdate:(NSTimeInterval)delta;

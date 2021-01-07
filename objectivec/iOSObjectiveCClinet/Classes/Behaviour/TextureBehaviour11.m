@@ -16,10 +16,10 @@
     self = [super init];
     NSBundle* bundle = [NSBundle mainBundle];
     NSString* path = [bundle pathForResource:@"texture03" ofType:@"png"];
-    GLESBlend* blend = [[GLESBlend alloc] init];
+    GLES1Blend* blend = [[GLES1Blend alloc] init];
     [blend normal];
     self->_type = type;
-    self->asset = [[RectangleAsset1 alloc] init:1.0f height:1.0f color:GLESColor.white];
+    self->asset = [[GLES1RectangleAsset1 alloc] init:1.0f height:1.0f color:GLES1Color.white];
     [self.asset setBlend:blend];
     [self->asset create:path];
     self.timeLine.rate = 0.01f;

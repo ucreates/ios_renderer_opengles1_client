@@ -13,7 +13,7 @@
 #import "iOSObjectiveCGLES1Renderer.h"
 @interface ObjBehaviour1 : BaseBehaviour
 @property FiniteStateMachine<ObjBehaviour1*>* stateMachine;
-@property BaseAsset* asset;
+@property GLES1BaseAsset* asset;
 - (id)init;
 - (void)onCreate:(Parameter*)parameter;
 - (void)onUpdate:(NSTimeInterval)delta;

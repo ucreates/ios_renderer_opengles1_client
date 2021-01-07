@@ -14,7 +14,7 @@
 @synthesize asset;
 - (id)init {
     self = [super init];
-    self->asset = [[CircleAsset1 alloc] init:0.5f divideCount:100 color:GLESColor.white];
+    self->asset = [[GLES1CircleAsset1 alloc] init:0.5f divideCount:100 color:GLES1Color.white];
     [self->asset create];
     return self;
 }

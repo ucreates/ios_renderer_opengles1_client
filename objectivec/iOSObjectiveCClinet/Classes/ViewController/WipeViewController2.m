@@ -16,7 +16,7 @@
 #import "iOSObjectiveCGLES1Renderer.h"
 @interface WipeViewController2 ()
 @property GLES1Renderer* renderer;
-@property WipeAsset1* wipe;
+@property GLES1WipeAsset1* wipe;
 @property NSMutableArray<CubeBehaviour1*>* behaviours;
 @end
 @implementation WipeViewController2
@@ -29,7 +29,7 @@
     self.preferredFramesPerSecond = 60;
     self->renderer = [[GLES1Renderer alloc] init];
     [self->renderer create];
-    [self->renderer.camera setClearColor:GLESColor.black];
+    [self->renderer.camera setClearColor:GLES1Color.black];
     [self->renderer.camera setFov:60.0f];
     [self->renderer.camera setClippingPlane:0.1f farPlane:100.0f dimension:kDimension3D];
     [self->renderer.camera setLookAt:GLKVector3Make(0.0f, 0.0f, -5.0f) center:GLKVector3Make(0.0f, 0.0f, 0.0f) up:GLKVector3Make(0.0f, 1.0f, 0.0f)];
@@ -47,7 +47,7 @@
     [caglLayer setOpaque:YES];
     CGSize size = UIScreen.mainScreen.nativeBounds.size;
     [self->renderer bind:caglLayer width:size.width height:size.height attachmentType:GL_STENCIL_ATTACHMENT_OES];
-    self->wipe = [[WipeAsset1 alloc] init:0.5f divideCount:100 maxScale:5.0f];
+    self->wipe = [[GLES1WipeAsset1 alloc] init:0.5f divideCount:100 maxScale:5.0f];
     [self->wipe create:kDimension3D];
     return;
 }

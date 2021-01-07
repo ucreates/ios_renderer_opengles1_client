@@ -15,13 +15,13 @@
 - (id)init {
     self = [super init];
     NSBundle* bundle = [NSBundle mainBundle];
-    GLESBlend* blend = [[GLESBlend alloc] init];
+    GLES1Blend* blend = [[GLES1Blend alloc] init];
     [blend normal];
-    TextureAnimatorAsset* animatorAsset = [[TextureAnimatorAsset alloc] init];
+    GLES1TextureAnimatorAsset* animatorAsset = [[GLES1TextureAnimatorAsset alloc] init];
     for (int i = 0; i < 10; i++) {
         NSString* fileName = [NSString stringWithFormat:@"number%02d", i];
         NSString* path = [bundle pathForResource:fileName ofType:@"png"];
-        BaseAsset* frame = [[RectangleAsset1 alloc] init:1.0f height:1.0f color:GLESColor.white];
+        GLES1BaseAsset* frame = [[GLES1RectangleAsset1 alloc] init:1.0f height:1.0f color:GLES1Color.white];
         [frame create:path textureUnit:GL_TEXTURE10];
         [frame setBlend:blend];
         [animatorAsset add:frame];

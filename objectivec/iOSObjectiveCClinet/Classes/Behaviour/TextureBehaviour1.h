@@ -12,7 +12,7 @@
 #import "iOSObjectiveCFoundation.h"
 #import "iOSObjectiveCGLES1Renderer.h"
 @interface TextureBehaviour1 : BaseBehaviour
-@property BaseAsset* asset;
+@property GLES1BaseAsset* asset;
 - (id)init;
 - (void)onCreate:(Parameter*)parameter;
 - (void)onUpdate:(NSTimeInterval)delta;

@@ -13,9 +13,9 @@
 @implementation BlendBehaviour3
 - (id)init {
     self = [super init];
-    GLESBlend* blend = [[GLESBlend alloc] init];
+    GLES1Blend* blend = [[GLES1Blend alloc] init];
     [blend normal];
-    self.asset = [[TriangleAsset1 alloc] init:1.0f height:1.0f color:[GLESColor blue:0.5f]];
+    self.asset = [[GLES1TriangleAsset1 alloc] init:1.0f height:1.0f color:[GLES1Color blue:0.5f]];
     [self.asset setBlend:blend];
     [self.asset create];
     self.timeLine.rate = 0.01f;

@@ -16,7 +16,7 @@
 @synthesize rotate;
 - (id)init {
     self = [super init];
-    self->asset = [[CubeAsset1 alloc] init:1.0f height:1.0f depth:1.0f color:GLESColor.white];
+    self->asset = [[GLES1CubeAsset1 alloc] init:1.0f height:1.0f depth:1.0f color:GLES1Color.white];
     [self->asset create];
     self.timeLine.rate = 0.01f;
     return self;

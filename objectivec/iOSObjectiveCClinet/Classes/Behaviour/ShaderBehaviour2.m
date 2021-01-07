@@ -18,7 +18,7 @@
     self = [super init];
     GLES1ShaderAsset* shader = [[GLES1ShaderAsset alloc] init];
     [shader setPhong];
-    self->asset = [[SphereAsset1 alloc] init:1.0f divideCount:30 color:GLESColor.red];
+    self->asset = [[GLES1SphereAsset1 alloc] init:1.0f divideCount:30 color:GLES1Color.red];
     [self->asset setShader:shader];
     [self->asset create];
     return self;

@@ -14,7 +14,7 @@
 @interface TextureBehaviour11 : BaseBehaviour {
     int _type;
 }
-@property BaseAsset* asset;
+@property GLES1BaseAsset* asset;
 - (id)init:(int)type;
 - (void)onCreate:(Parameter*)parameter;
 - (void)onUpdate:(NSTimeInterval)delta;

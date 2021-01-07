@@ -16,10 +16,10 @@
     self = [super init];
     NSBundle* bundle = [NSBundle mainBundle];
     NSString* path = [bundle pathForResource:@"animation" ofType:@"png"];
-    GLESBlend* blend = [[GLESBlend alloc] init];
+    GLES1Blend* blend = [[GLES1Blend alloc] init];
     [blend normal];
-    TextureAtlasAnimatorAsset* animatorAsset = [[TextureAtlasAnimatorAsset alloc] init];
-    BaseAsset* frame = [[RectangleAsset1 alloc] init:1.0f height:1.0f color:GLESColor.white];
+    GLES1TextureAtlasAnimatorAsset* animatorAsset = [[GLES1TextureAtlasAnimatorAsset alloc] init];
+    GLES1BaseAsset* frame = [[GLES1RectangleAsset1 alloc] init:1.0f height:1.0f color:GLES1Color.white];
     [frame create:path];
     [frame setBlend:blend];
     [animatorAsset setTestureAtlas:frame];

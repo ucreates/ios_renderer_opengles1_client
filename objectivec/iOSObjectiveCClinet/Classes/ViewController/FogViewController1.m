@@ -26,7 +26,7 @@
     self.delegate = self;
     self.preferredFramesPerSecond = 60;
     GLES1Fog* fog = [[GLES1Fog alloc] init:GL_LINEAR];
-    [fog setColor:GLESColor.black];
+    [fog setColor:GLES1Color.black];
     [fog setHint:GL_NICEST];
     [fog setDensity:1.0f];
     [fog setPosition:1.0f end:7.0f];

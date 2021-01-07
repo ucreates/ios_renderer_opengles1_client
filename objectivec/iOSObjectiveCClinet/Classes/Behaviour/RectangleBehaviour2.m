@@ -15,7 +15,7 @@
 @synthesize asset;
 - (id)init {
     self = [super init];
-    self->asset = [[RectangleAsset2 alloc] init:1.0f height:1.0f color:GLESColor.white];
+    self->asset = [[GLES1RectangleAsset2 alloc] init:1.0f height:1.0f color:GLES1Color.white];
     [self->asset create];
     return self;
 }

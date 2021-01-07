@@ -27,7 +27,7 @@
     self.preferredFramesPerSecond = 60;
     self->renderer = [[GLES1Renderer alloc] init];
     [self->renderer create];
-    [self->renderer.camera setClearColor:GLESColor.white];
+    [self->renderer.camera setClearColor:GLES1Color.white];
     [self->renderer.camera setClippingPlane:-1.0f farPlane:1.0f dimension:kDimension2D];
     self->behaviours = [[NSMutableArray<TextureBehaviour11*> alloc] init];
     TextureBehaviour11* behaviour1 = [[TextureBehaviour11 alloc] init:0];

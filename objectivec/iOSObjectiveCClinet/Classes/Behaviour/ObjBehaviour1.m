@@ -29,7 +29,7 @@
     }
     NSBundle* bundle = [NSBundle mainBundle];
     NSString* path = [bundle pathForResource:objName ofType:@"obj"];
-    self->asset = [[ObjAsset alloc] init];
+    self->asset = [[GLES1ObjAsset alloc] init];
     [self->asset create:path];
     return self;
 }
@@ -37,8 +37,8 @@
     return;
 }
 - (void)onUpdate:(NSTimeInterval)delta {
-    ObjAsset* asset = (ObjAsset*)self.asset;
-    for (Mesh* mesh in asset.subMeshes) {
+    GLES1ObjAsset* asset = (GLES1ObjAsset*)self.asset;
+    for (GLES1Mesh* mesh in asset.subMeshes) {
         if (0 == self->objType) {
             [mesh.transform setPosition:0.0f y:-0.1f z:0.0f];
             [mesh.transform setScale:0.025f y:0.025f z:0.025f];

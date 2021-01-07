@@ -14,7 +14,7 @@
 @interface TextureAnimatorBehaviour2 : BaseBehaviour {
     int _type;
 }
-@property BaseAsset* asset;
+@property GLES1BaseAsset* asset;
 - (id)init;
 - (void)onCreate:(Parameter*)parameter;
 - (void)onUpdate:(NSTimeInterval)delta;

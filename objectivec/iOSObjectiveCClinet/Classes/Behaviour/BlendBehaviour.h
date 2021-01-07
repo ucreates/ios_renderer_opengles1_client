@@ -12,7 +12,7 @@
 #import "iOSObjectiveCFoundation.h"
 #import "iOSObjectiveCGLES1Renderer.h"
 @interface BlendBehaviour : BaseBehaviour
-@property BaseAsset* asset;
+@property GLES1BaseAsset* asset;
 - (id)init;
 @end
 #endif /* BlendBehaviour_h */

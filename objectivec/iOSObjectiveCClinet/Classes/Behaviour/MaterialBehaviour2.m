@@ -16,11 +16,11 @@
 @synthesize rotate;
 - (id)init {
     self = [super init];
-    Material* material = [[Material alloc] init];
-    [material setAmbient:[[GLESColor alloc] init:1.0f g:0.0f b:0.0f a:1.0f]];
-    [material setDiffuse:[[GLESColor alloc] init:0.0f g:1.0f b:0.0f a:1.0f]];
-    [material setSpecular:[[GLESColor alloc] init:1.0f g:1.0f b:1.0f a:1.0f]];
-    self->asset = [[SphereAsset1 alloc] init:1.0f divideCount:30 color:GLESColor.white];
+    GLES1Material* material = [[GLES1Material alloc] init];
+    [material setAmbient:[[GLES1Color alloc] init:1.0f g:0.0f b:0.0f a:1.0f]];
+    [material setDiffuse:[[GLES1Color alloc] init:0.0f g:1.0f b:0.0f a:1.0f]];
+    [material setSpecular:[[GLES1Color alloc] init:1.0f g:1.0f b:1.0f a:1.0f]];
+    self->asset = [[GLES1SphereAsset1 alloc] init:1.0f divideCount:30 color:GLES1Color.white];
     [self->asset setMaterial:material];
     [self->asset create];
     return self;

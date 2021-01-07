@@ -33,9 +33,9 @@
     self.preferredFramesPerSecond = 60;
     GLES1Light* light = [[GLES1Light alloc] init:GL_LIGHT0];
     [light setPosition:-3.0 y:0.0 z:-3.0];
-    [light setAmbient:GLESColor.white];
-    [light setDiffuse:GLESColor.white];
-    [light setSpecular:GLESColor.white];
+    [light setAmbient:GLES1Color.white];
+    [light setDiffuse:GLES1Color.white];
+    [light setSpecular:GLES1Color.white];
     self->renderer = [[GLES1Renderer alloc] init];
     [self->renderer create];
     [self->renderer.camera setFov:60.0f];
@@ -91,16 +91,16 @@
     [self->renderer transform:kDimension3D];
     for (ObjBehaviour1* behaviour in self->behaviours3d) {
         [behaviour onUpdate:self.timeSinceLastUpdate];
-        ObjAsset* asset = (ObjAsset*)behaviour.asset;
-        for (Mesh* mesh in asset.subMeshes) {
+        GLES1ObjAsset* asset = (GLES1ObjAsset*)behaviour.asset;
+        for (GLES1Mesh* mesh in asset.subMeshes) {
             [self->renderer render:mesh];
         }
     }
     [self->renderer transform:kDimension2D];
     for (UIBehaviour1* behaviour in self->behavioursUI) {
         [behaviour onUpdate:self.timeSinceLastUpdate];
-        TextureAtlasAnimatorAsset* asset = (TextureAtlasAnimatorAsset*)behaviour.asset;
-        BaseAsset* currentFrame = [asset getCurrentFrame];
+        GLES1TextureAtlasAnimatorAsset* asset = (GLES1TextureAtlasAnimatorAsset*)behaviour.asset;
+        GLES1BaseAsset* currentFrame = [asset getCurrentFrame];
         [self->renderer render:currentFrame];
     }
     [self->renderer present];

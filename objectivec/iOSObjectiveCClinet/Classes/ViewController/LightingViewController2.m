@@ -28,13 +28,13 @@
     GLES1Light* light1 = [[GLES1Light alloc] init:GL_LIGHT0];
     [light1 setPosition:3.0 y:0.0 z:0.0];
     [light1 setDirection:-1.0 y:0.0 z:0.0];
-    [light1 setAmbient:[[GLESColor alloc] init:0.0f g:0.0f b:0.0f a:1.0f]];
-    [light1 setDiffuse:[[GLESColor alloc] init:0.0f g:0.0f b:1.0f a:1.0f]];
+    [light1 setAmbient:[[GLES1Color alloc] init:0.0f g:0.0f b:0.0f a:1.0f]];
+    [light1 setDiffuse:[[GLES1Color alloc] init:0.0f g:0.0f b:1.0f a:1.0f]];
     GLES1Light* light2 = [[GLES1Light alloc] init:GL_LIGHT1];
     [light2 setPosition:-3.0 y:0.0 z:0.0];
     [light1 setDirection:1.0 y:0.0 z:0.0];
-    [light2 setAmbient:[[GLESColor alloc] init:0.0f g:0.0f b:0.0f a:1.0f]];
-    [light2 setDiffuse:[[GLESColor alloc] init:1.0f g:0.0f b:0.0f a:1.0f]];
+    [light2 setAmbient:[[GLES1Color alloc] init:0.0f g:0.0f b:0.0f a:1.0f]];
+    [light2 setDiffuse:[[GLES1Color alloc] init:1.0f g:0.0f b:0.0f a:1.0f]];
     self->renderer = [[GLES1Renderer alloc] init];
     [self->renderer create];
     [self->renderer.camera setFov:60.0f];

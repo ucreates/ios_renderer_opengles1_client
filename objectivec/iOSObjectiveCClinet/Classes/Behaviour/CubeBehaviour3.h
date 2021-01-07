@@ -14,7 +14,7 @@
 #import "iOSObjectiveCGLES1Renderer.h"
 @interface CubeBehaviour3 : BaseBehaviour
 @property FiniteStateMachine<CubeBehaviour3*>* stateMachine;
-@property BaseAsset* asset;
+@property GLES1BaseAsset* asset;
 - (id)init;
 - (void)onCreate:(Parameter*)parameter;
 - (void)onUpdate:(NSTimeInterval)delta;
